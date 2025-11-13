@@ -1,0 +1,349 @@
+<html class="generic-theme" ally-id="ally-1"><head ally-id="ally-2">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" ally-id="ally-3">
+    <meta name="viewport" content="width=device-width, initial-scale=1" ally-id="ally-4">
+    <meta name="importmap-type" content="systemjs-importmap" ally-id="ally-5">
+    <script src="https://global-assets.fitch.group/importmap/ds7.importmap" type="systemjs-importmap" ally-id="ally-6"></script>
+    <script src="https://assets.fitchconnect.com/npm/systemjs@6.7.1/dist/system.min.js" ally-id="ally-7"></script>
+    <script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-8">
+        (function () {
+            var currentLocation = window.location.href;
+            var urlsToTrack = [
+                '/sru?appCode=fitchRatings',
+                '/userRegistration?appCode=fitchRatings',
+                '/userRegistration?appCode=fitchRatings&sruMessage=userRegisteredSuccess',
+                '/login?appCode=fitchRatings'
+            ];
+
+            var shouldTrack = urlsToTrack.some(function (url) {
+                return currentLocation.includes(url);
+            });
+
+            if (shouldTrack) {
+                // Google Tag Manager
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl +
+                        '&gtm_auth=rXY4T9h7nvkc-1B8HhagTQ&gtm_preview=env-1653&gtm_cookies_win=x';
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-545N25M');
+                // End Google Tag Manager
+
+                //Adobe Analytics
+                var currentHost = window.location.host;
+                if (currentHost.indexOf('localhost') === -1 && currentHost.indexOf('-dev') === -1 && currentHost.indexOf('-qa') === -1) {
+                    var adobeScriptSrc;
+                    if (currentHost.indexOf('-stg') !== -1) {
+                        adobeScriptSrc = 'https://assets.adobedtm.com/7582667546ef/8a359a5930a6/launch-b3cffa457947-staging.min.js';
+                    } else {
+                        adobeScriptSrc = 'https://assets.adobedtm.com/7582667546ef/8a359a5930a6/launch-37a059c71c4d.min.js';
+                    }
+
+                    var adobeScript = document.createElement('script');
+                    adobeScript.src = adobeScriptSrc;
+                    adobeScript.async = true;
+                    document.head.append(adobeScript);
+                }
+                //End Adobe Analytics
+            }
+        })();
+    </script>
+    <script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-9">
+        (function () {
+            var currentLocation = window.location.host;
+            if (currentLocation.indexOf('localhost') == -1) {
+                var fitchConnectImportMapURL;
+                if (currentLocation.indexOf('-dev') !== -1) {
+                    fitchConnectImportMapURL = 'https://assets.fitchconnect-dev.com/fitchconnect.importmap';
+                } else if (currentLocation.indexOf('-qa') !== -1) {
+                    fitchConnectImportMapURL = 'https://assets.fitchconnect-qa.com/fitchconnect.importmap';
+                } else if (currentLocation.indexOf('-stg') !== -1) {
+                    fitchConnectImportMapURL = 'https://assets.fitchconnect-stg.com/fitchconnect.importmap';
+                } else {
+                    fitchConnectImportMapURL = 'https://assets.fitchconnect.com/fitchconnect.importmap';
+                }
+                loadFile(fitchConnectImportMapURL);
+
+                function loadFile(url) {
+                    const scriptEle = document.createElement('script');
+                    scriptEle.type = 'systemjs-importmap';
+                    scriptEle.src = url;
+                    document.head.append(scriptEle);
+                }
+            }
+        })();
+    </script>
+    <script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-10">
+        (function () {
+            loadFavicon();
+
+            function loadFavicon() {
+                let favicon = document.createElement('link');
+                favicon.rel = 'icon';
+                let faviconUrl = 'https://global-assets.fitch.group/images/fitch-auth/FRPro.svg'
+                favicon.href = faviconUrl !== '' ? faviconUrl : '/resources/fitchSolutions.svg';
+                document.head.append(favicon);
+            }
+        })();
+    </script>
+    <script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-11">
+        (function () {
+            addTitle();
+
+            function addTitle() {
+                let currentLocation = window.location.href;
+                if (currentLocation.indexOf('/launchpad') !== -1) {
+                    document.title = 'FS';
+                } else {
+                    document.title = 'Login'
+                }
+            }
+        })();
+    </script>
+    <script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-12">
+        var currentLocation = window.location.host;
+        var appCode = 'frp';
+        var appConfigurations = {
+            'frp': {
+                clientToken: 'pub048f996184a84c254ca4e8d15c4beddc',
+                applicationId: '6b061b35-386a-432e-8eb1-25ca80abd988',
+                service: 'fitch-ratings-pro'
+            },
+            'bmi': {
+                clientToken: 'pub7dead6db8733c32fac8dce79a13dd7d9',
+                applicationId: '2d933644-36c3-48f3-8b58-f03d1c93ad59',
+                service: 'fitch-ratings-bmi'
+            }
+        };
+
+        if (currentLocation.indexOf('auth.fitch.group') !== -1 && appConfigurations[appCode]) {
+            initializeDatadogRUM(appConfigurations[appCode]);
+        }
+
+        function initializeDatadogRUM(config) {
+            (function (h, o, u, n, d) {
+                h = h[d] = h[d] || {
+                    q: [], onReady: function (c) {
+                        h.q.push(c)
+                    }
+                };
+                d = o.createElement(u);
+                d.async = 1;
+                d.src = n;
+                n = o.getElementsByTagName(u)[0];
+                n.parentNode.insertBefore(d, n);
+            })(window, document, 'script', 'https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js', 'DD_RUM');
+            window.DD_RUM.onReady(function () {
+                window.DD_RUM.init({
+                    clientToken: config.clientToken,
+                    applicationId: config.applicationId,
+                    site: 'datadoghq.com',
+                    service: config.service,
+                    env: 'prod',
+                    sessionSampleRate: 100,
+                    sessionReplaySampleRate: 100,
+                    trackUserInteractions: true,
+                    trackResources: true,
+                    trackLongTasks: true,
+                    defaultPrivacyLevel: 'mask-user-input'
+                });
+            });
+        }
+    </script>
+    <link href="/resources/css/app.css" rel="stylesheet" ally-id="ally-13">
+</head>
+
+<body ally-id="ally-14">
+<script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-15">
+    (function () {
+        var currentLocation = window.location.href;
+        var urlsToTrack = [
+            '/sru?appCode=fitchRatings',
+            '/userRegistration?appCode=fitchRatings',
+            '/userRegistration?appCode=fitchRatings&sruMessage=userRegisteredSuccess',
+            '/login?appCode=fitchRatings'
+        ];
+
+        var shouldTrack = urlsToTrack.some(function (url) {
+            return currentLocation.includes(url);
+        });
+
+        if (shouldTrack) {
+            var noscript = document.createElement('noscript');
+            var iframe = document.createElement('iframe');
+            iframe.src = 'https://www.googletagmanager.com/ns.html?id=GTM-545N25M&gtm_auth=rXY4T9h7nvkc-1B8HhagTQ&gtm_preview=env-1653&gtm_cookies_win=x';
+            iframe.height = 0;
+            iframe.width = 0;
+            iframe.style = 'display:none;visibility:hidden';
+            noscript.appendChild(iframe);
+            document.body.insertBefore(noscript, document.body.firstChild);
+        }
+    })();
+</script>
+<script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" type="text/javascript" ally-id="ally-16">
+    (function (window, document, dataLayerName, id) {
+        localStorage.setItem('allChecked', JSON.stringify(false));
+        window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({
+            start: (new Date).getTime(),
+            event: "stg.start"
+        });
+        var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
+
+        function stgCreateCookie(a, b, c) {
+            var d = "";
+            if (c) {
+                var e = new Date;
+                e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3), d = "; expires=" + e.toUTCString()
+            }
+            document.cookie = a + "=" + b + d + "; path=/"
+        }
+
+        var isStgDebug = (window.location.href.match("stg_debug") || document.cookie.match("stg_debug")) && !window.location.href.match("stg_disable_debug");
+        stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+        var qP = [];
+        dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName), isStgDebug && qP.push("stg_debug");
+        var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+        tags.async = !0, tags.src = "//purple.fitchconnect.com/containers/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+        !function (a, n, i) {
+            a[n] = a[n] || {};
+            for (var c = 0; c < i.length; c++) !function (i) {
+                a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function () {
+                    var a = [].slice.call(arguments, 0);
+                    "string" == typeof a[0] && window[dataLayerName].push({
+                        event: n + "." + i + ":" + a[0],
+                        parameters: [].slice.call(arguments, 1)
+                    })
+                }
+            }(i[c])
+        }(window, "ppms", ["tm", "cm"]);
+    })(window, document, 'dataLayer', 'cd4f5269-68cf-446c-bffb-72f8f49f3690');
+</script>
+<!--<script th:nonce="${cspNonce}" type="systemjs-importmap">
+        {
+            "imports": {
+                   "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+                "react": "https://cdn.jsdelivr.net/npm/react@16.12.0/umd/react.production.min.js",
+                "react-dom": "https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js" }
+        }
+    </script>
+    <script th:nonce="${cspNonce}" type="systemjs-importmap">
+        {
+            "imports": {
+                 "@fc/fitch-login": "http://localhost:8082/fitch-login.js"
+            }
+        }
+    </script>-->
+
+<script nonce="33e1cab5-8626-463e-981d-d10d45f9ae22" ally-id="ally-17">
+    System.prepareImport().then(function () {
+        importCSS("@fg/design-system/css");
+        importCSS("@fg/design-system/css/theme/generic");
+
+        function importCSS(url) {
+            const linkEl = document.createElement("link");
+            linkEl.rel = "stylesheet";
+            linkEl.href = System.resolve(url);
+            document.head.append(linkEl);
+        }
+
+        System.import("react").then(() => {
+            System.import("react-dom");
+            System.import("single-spa").then(({registerApplication, start}) => {
+                var propsObj = {
+                    appCode: "frp",
+                    identitySamlBaseUrl: "https://saml.fitchconnect.com",
+                    identityCognitoBaseUrl: "https://identity-sso-cognito-service.fitch.group",
+                    attemptedUrl: "",
+                    initialUrl: "",
+                    clientId: "q0q96ugrol6kh19jfclk4ikp20",
+                    ipAuthenticationCompanyName: "",
+                    errorMessageCode: "",
+                    csrfToken: "144272dd-c201-4c2e-b555-87575c2e4b8c",
+                    clients: [],
+                    logoType: '',
+                    fullName: "",
+                    isChinaTemplate: "" === "true",
+                    isTrialUser: "" === "true",
+                    isCreditSightsTemplate: "" === "true",
+                    redirect: "",
+                    email: '',
+                    sruMessage: '',
+                    countries: [],
+                    states: [],
+                    clientTypes: [],
+                    jobRoles: [],
+                    stateOauth: '',
+                    callback: '',
+                    captchaKey: "",
+                    cspNonce: "33e1cab5-8626-463e-981d-d10d45f9ae22"
+                }
+                if (true) {
+                    propsObj.showSSO = true;
+                }
+                if (true) {
+                    propsObj.showIpAuth = true;
+                }
+                if ("pro") {
+                    propsObj.logoType = "pro";
+                }
+                if ("https%3A%2F%2Fwww.fitchsolutions.com%2Fcredit%2Fcontact-us%3Futm_campaign%3Dfrpro-login%26utm_medium%3Dreferral%26utm_source%3Dfr-pro%26utm_content%3Dlnk2%26utm_term%3Dcallback") {
+                    propsObj.demoLink = "https%3A%2F%2Fwww.fitchsolutions.com%2Fcredit%2Fcontact-us%3Futm_campaign%3Dfrpro-login%26utm_medium%3Dreferral%26utm_source%3Dfr-pro%26utm_content%3Dlnk2%26utm_term%3Dcallback";
+                }
+                if ("Fitch Ratings PRO") {
+                    propsObj.appName = "Fitch Ratings PRO";
+                }
+                if ("connect") {
+                    propsObj.helpPage = "connect";
+                }
+                if ('') {
+                    propsObj.clients = JSON.parse('');
+                }
+                if ("") {
+                    propsObj.email = "";
+                }
+                if ("") {
+                    propsObj.sruMessage = "";
+                }
+                if ("") {
+                    propsObj.countries = "";
+                }
+                if ("") {
+                    propsObj.states = "";
+                }
+                if ("") {
+                    propsObj.clientTypes = "";
+                }
+                if ("") {
+                    propsObj.jobRoles = "";
+                }
+                if ("") {
+                    propsObj.stateOauth = "";
+                }
+                if ("") {
+                    propsObj.callback = "";
+                }
+
+                function loadApp() {
+                    return Promise.resolve().then(() => {
+                        return System.import("@fc/fitch-login");
+                    });
+                }
+
+                registerApplication({
+                    name: "@fc/fitch-login",
+                    app: loadApp,
+                    activeWhen: () => true,
+                    customProps: propsObj
+                });
+                start();
+            });
+        });
+    });
+</script>
+<div id="root" ally-id="ally-18"></div>
+
+
+</body></html>

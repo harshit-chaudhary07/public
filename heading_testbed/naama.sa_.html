@@ -1,0 +1,1477 @@
+<!DOCTYPE html><!--start html--><html lang="ar" dir="rtl" ally-id="ally-1"><!--start head--><head ally-id="ally-2">
+    <meta charset="UTF-8" ally-id="ally-3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" ally-id="ally-4">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" ally-id="ally-5">
+    <meta name="description" content="NAAMA SSO | Single Sign On to all applications in mewa" ally-id="ally-6">
+    <meta name="copyright" content="MEWA" ally-id="ally-7">
+    <meta name="author" content="MEWA, NAAMA" ally-id="ally-8">
+    <meta name="robots" content="INDEX,FOLLOW" ally-id="ally-9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" ally-id="ally-10">
+    <title ally-id="ally-11">نما | الصفحة الرئيسية</title>
+
+    <link rel="stylesheet" href="/assets/css/header.min.css?v=Jrq6oVYc6en7_UdPbqGmRHfEgK6GGLFk0uqBK_7qVqk" ally-id="ally-12">
+    <link rel="stylesheet" href="/assets/css/footer.min.css?v=A10j7tDhVpJjfJ-7iILEumrVtF9AN_HeVhstKzd0m_M" ally-id="ally-13">
+    <link rel="stylesheet" href="/assets/css/plugins/animate/animate.min.css" ally-id="ally-14">
+    <link rel="stylesheet" href="/assets/css/plugins/icons/huge-icons/hgi-stroke-rounded.css" ally-id="ally-15">
+    <link rel="stylesheet" href="/assets/css/general.min.css?v=f5wNF_4HC4152Q8GlT-CSDgWJ2P8f_tgqkE7fcPgdmM" ally-id="ally-16">
+
+    <script src="/assets/js/plugins/jquery.min.js" ally-id="ally-17"></script>
+    <script src="/assets/js/plugins/bootstrap.bundle.min.js" ally-id="ally-18"></script>
+    <script src="/assets/js/plugins/bs5-lightbox.js" ally-id="ally-19"></script>
+    <script src="/assets/js/plugins/counter.min.js" ally-id="ally-20"></script>
+
+
+    
+	<link rel="stylesheet" href="/assets/css/plugins/swiper/swiper-vars.min.css?v=kf-4fnpQL2PNvOCpzbN6aQCeU7MZoe0fBUO_n5gKNhc" ally-id="ally-21">
+	<link rel="stylesheet" href="/assets/css/plugins/swiper/swiper.min.css?v=8IB3PgBF8GBt1pjukPVaz4eH1oKFkiL39-uRivqXiD4" ally-id="ally-22">
+	<link rel="stylesheet" href="/assets/css/pages/home.min.css?v=VZVwkuidVX1le_nuHcF8puKKShk5QsATT7Srozd21sI" ally-id="ally-23">
+
+
+        <script src="//cdn1.readspeaker.com/script/14310/webReader/webReader.js?pids=wr" ally-id="ally-24"></script>
+        <link href="//cdn1.readspeaker.com/script/14310/webReader/r/r2613/ReadSpeaker.Styles.css" ally-id="ally-25">
+        <script src="//cdn1.readspeaker.com/script/14310/webReader/r/r2613/ReadSpeaker.Core.js" ally-id="ally-26"></script>
+</head>
+<!--end head-->
+<!--start body-->
+<body class="nationalDay95" ally-id="ally-27">
+    <input type="hidden" id="tempMsg" value="" ally-id="ally-28">
+    <input type="hidden" id="tempShow" ally-id="ally-29">
+    <input type="hidden" id="mrlanghf" value="ar" ally-id="ally-30">
+    <input type="hidden" id="pageCode" value="home/index" ally-id="ally-31">
+
+    <nav aria-label="Skip Links" class="sr-only" ally-id="ally-32">
+        <ul ally-id="ally-33">
+            <li ally-id="ally-34">
+                <a href="#skip_nav" class="skip-link" ally-id="ally-35">
+                    تخطي القائمة
+                </a>
+            </li>
+            <li ally-id="ally-36">
+                <a href="#skip_content" class="skip-link" ally-id="ally-37">
+                    تخطي الى المحتوى
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="toast position-fixed fade" role="alert" aria-live="polite" aria-atomic="true" data-animation="true" data-delay="300" ally-id="ally-38">
+        <div class="toast-header" ally-id="ally-39">
+            <div class="icon" ally-id="ally-40"></div>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" ally-id="ally-41">
+                <i class="hgi-stroke hgi-cancel-01" ally-id="ally-42"></i>
+            </button>
+        </div>
+        <div class="toast-body" ally-id="ally-43">
+            <span class="title" id="toastTitle" ally-id="ally-44"></span>
+            <span class=" brief" id="toastContent" ally-id="ally-45"></span>
+        </div>
+    </div>
+
+    <!--start loader -->
+    <div class="loader_wrapper" style="display:none;" ally-id="ally-46">
+        <div class="load-wrapp loader--style1" title="جاري التحميل ..." ally-id="ally-47">
+            <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve" ally-id="ally-48">
+            <path opacity="0.2" fill="#3E5C76" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+                        s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+                        c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z" ally-id="ally-49"></path>
+            <path fill="#3E5C76" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+                        C22.32,8.481,24.301,9.057,26.013,10.047z" ally-id="ally-50">
+            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite" ally-id="ally-51"></animateTransform>
+    </path>
+   </svg>
+            <img src="/assets/images/mew_load.webp" alt="load image" ally-id="ally-52">
+            <h4 ally-id="ally-53">انتظر قليلاً...</h4>
+        </div>
+    </div>
+    <!--end loader -->
+    <!-- start: digital Stamp -->
+    <div class="digitalStamp" role="region" aria-label="digital Stamp" ally-id="ally-54">
+        <div class="padding-container" ally-id="ally-55">
+            <div class="title" ally-id="ally-56">
+                <div class="m-0" ally-id="ally-57">
+                    <img class="" src="/assets/images/digitalStamp/flag-Saudi.svg" alt="Saudi flag" ally-id="ally-58">
+                    موقع حكومي مسجل لدى هيئة الحكومة الرقمية
+                </div>
+                <a class="link" data-bs-toggle="collapse" href="#collapseDigitalStamp" role="button" aria-expanded="false" aria-controls="collapseDigitalStamp" ally-id="ally-59">
+                    كيف تتحقق؟
+                    <img class="" src="/assets/images/digitalStamp/arrow-down-01.svg" alt="arrow down icon" ally-id="ally-60">
+                </a>
+            </div>
+            <div class="collapse" id="collapseDigitalStamp" ally-id="ally-61">
+                <div class="card card-body" ally-id="ally-62">
+                    <div class="row" ally-id="ally-63">
+                        <div class="col-md-6" ally-id="ally-64">
+                            <div class="cards" ally-id="ally-65">
+                                <div class="icon" ally-id="ally-66">
+                                    <img class="" src="/assets/images/digitalStamp/links-dga.svg" alt="links dga icon" ally-id="ally-67">
+                                </div>
+                                <div class="box" ally-id="ally-68">
+                                    <div ally-id="ally-69">
+                                        روابط المواقع الالكترونية الرسمية السعودية تنتهي بـ
+<span ally-id="ally-70">.sa</span>
+                                    </div>
+                                    <p ally-id="ally-71">
+                                        جميع روابط المواقع الرسمية للأنشطة والمبادرات في المملكة العربية السعودية تنتهي بـ sa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" ally-id="ally-72">
+                            <div class="cards" ally-id="ally-73">
+                                <div class="icon" ally-id="ally-74">
+                                    <img class="" src="/assets/images/digitalStamp/square-lock-password.svg" alt="lock password icon" ally-id="ally-75">
+                                </div>
+                                <div class="box" ally-id="ally-76">
+                                    <div ally-id="ally-77">
+                                        المواقع الالكترونية الحكومية تستخدم بروتوكول <span ally-id="ally-78">HTTPS</span> للتشفير و
+الأمان.
+                                    </div>
+                                    <p ally-id="ally-79">
+                                        المواقع الالكترونية الآمنة في المملكة العربية السعودية تستخدم بروتوكول HTTPS
+للتشفير.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dga" ally-id="ally-80">
+                        <img src="/assets/images/DGAlogo.svg" alt="DGA Logo" ally-id="ally-81">
+                        <div ally-id="ally-82">
+                            مسجل لدى هيئة الحكومة الرقمية برقم:
+                            <a class="link" href="https://raqmi.dga.gov.sa/platforms/DigitalStamp/ShowCertificate/406" target="_blank" ally-id="ally-83">20250406164</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: digital Stamp -->
+
+    <header class="header-sticky" aria-label="header section" id="skip_nav" ally-id="ally-84">
+            <div class="topbar d-flex justify-content-end align-items-center" ally-id="ally-85">
+                <a class="btn btn-link rounded-0 text-primary lang-btn" id="btnToggle" href="/home/togglelanguage?returnUrl=~%2F" ally-id="ally-86">
+                    <i class="hgi-stroke hgi-language-circle btn-icon" ally-id="ally-87"></i>
+                    <span ally-id="ally-88">English</span>
+                </a>
+                <a class="btn btn-primary rounded-0 text-white login-btn" href="/account/login" ally-id="ally-89">
+                    <i class="hgi-stroke hgi-user btn-icon" ally-id="ally-90"></i>
+                    <span ally-id="ally-91">تسجيل الدخول</span>
+                </a>
+            </div>
+
+        <div class="main-nav" ally-id="ally-92">
+            <div class="row align-items-center m-0 padding-container" ally-id="ally-93">
+                <div class="col-2 col-xl-1 p-0" ally-id="ally-94">
+                    <a class="navbar-brand" id="logo" href="/" ally-id="ally-95">
+                        <img class="" src="/assets/images/Nama-Logo.svg" alt="logo image" ally-id="ally-96">
+                    </a>
+                </div>
+                <div class="col-10 col-xl-9 p-0 d-flex justify-content-end justify-content-lg-start" ally-id="ally-97">
+                    <nav class="navbar navbar-expand-lg" aria-label="navbar" ally-id="ally-98">
+                        <div class="container-fluid" ally-id="ally-99">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" ally-id="ally-100">
+                                <span class="navbar-toggler-icon" ally-id="ally-101"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" id="navbarSupportedContent" ally-id="ally-102">
+                                <div class="d-flex d-lg-none close-offcanvas" ally-id="ally-103">
+                                    <div class="w-100 d-flex d-lg-none justify-content-end" ally-id="ally-104">
+                                        <button class="d-flex btn close" type="button" data-bs-dismiss="offcanvas" aria-label="Close" ally-id="ally-105">
+                                            <span ally-id="ally-106">إغلاق</span>
+                                            <i class="fa-solid fa-circle-xmark" ally-id="ally-107"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="d-flex d-lg-none nav-search bg-white" ally-id="ally-108">
+                                    <div class="input-holder d-flex input" ally-id="ally-109">
+                                        <i class="hgi-stroke hgi-search-01" aria-label="Search" ally-id="ally-110"></i>
+                                        <input type="search" class="form-control txtServiceSearchFilter" id="txtServiceSearchFilter" placeholder="ابحث هنا ..." aria-label="Search" ally-id="ally-111">
+                                    </div>
+                                </div>
+                                <ul class="navbar-nav" ally-id="ally-112">
+                                    <li class="nav-item" ally-id="ally-113">
+                                        <a class="nav-link" aria-current="page" href="/" ally-id="ally-114">
+                                            <i class="hgi-stroke hgi-home-01 d-flex d-lg-none" ally-id="ally-115"></i>
+                                            الرئيسية
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" ally-id="ally-116">
+                                        <a class="nav-link" aria-current="page" href="/services" ally-id="ally-117">
+                                            <i class="hgi-stroke hgi-dashboard-circle d-flex d-lg-none" ally-id="ally-118"></i>
+                                            دليل الخدمات الإلكترونية
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" ally-id="ally-119">
+                                        <a class="nav-link" aria-current="page" href="/news" ally-id="ally-120">
+                                            <i class="hgi-stroke hgi-news-01 d-flex d-lg-none" ally-id="ally-121"></i>
+                                            الأخبار و الأحداث
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown" ally-id="ally-122">
+                                        <a href="javascript:;" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" ally-id="ally-123">
+                                            <i class="hgi-stroke hgi-information-circle d-flex d-lg-none" ally-id="ally-124"></i>
+                                            عن نما
+                                        </a>
+                                        <ul class="dropdown-menu" ally-id="ally-125">
+                                            <li class="" ally-id="ally-126">
+                                                <a class="dropdown-item" href="/pages/about" ally-id="ally-127">
+                                                    عن نما
+                                                </a>
+                                            </li>
+                                            <li class="" ally-id="ally-128">
+                                                <a class="dropdown-item" href="/pages/statistics" ally-id="ally-129">
+                                                    إحصائيات نما
+                                                </a>
+                                            </li>
+                                            <li class="" ally-id="ally-130">
+                                                <a class="dropdown-item" href="/pages/digitaltransformation" ally-id="ally-131">
+                                                    التحول الرقمي
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item" ally-id="ally-132">
+                                        <a class="nav-link" href="/pages/faq" ally-id="ally-133">
+                                            <i class="hgi-stroke hgi-message-question d-flex d-lg-none" ally-id="ally-134"></i>
+                                            الأسئلة الشائعة
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" ally-id="ally-135">
+                                        <a class="nav-link" href="/pages/contactus" ally-id="ally-136">
+                                            <i class="hgi-stroke hgi-call-02 d-flex d-lg-none" ally-id="ally-137"></i>
+                                            تواصل معنا
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-2 col-xl-2 justify-content-end d-none d-xl-flex align-items-center" ally-id="ally-138">
+                    <div class="d-flex nav-search" ally-id="ally-139">
+                        <div class="input input-holder d-flex search-box" ally-id="ally-140">
+                            <label for="txtServiceSearchFilterMobile" class="visually-hidden" ally-id="ally-141">ابحث هنا ...:</label>
+                            <i class="hgi-stroke hgi-search-01 search-box-toggle" ally-id="ally-142"></i>
+                            <input type="search" class="form-control txtServiceSearchFilter" id="txtServiceSearchFilterMobile" placeholder="ابحث هنا ..." aria-label="ابحث هنا ..." ally-id="ally-143">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--start page content-->
+
+    <main class="layout-wrapper rs_naama" aria-label="main section" id="skip_content" ally-id="ally-144">
+        
+
+<!--start index header -->
+
+<div class="home-hero pt-5" ally-id="ally-145">
+	<!-- الخلفية هنا للتصميم فقط -->
+	<div class="container d-flex flex-column justify-content-between py-5 px-4 px-lg-1 hero-content" ally-id="ally-146">
+		<span class="visually-hidden" ally-id="ally-147">وصف للصورة الخلفية المهمة</span>
+		<!--  start review section -->
+		<!--  end review section -->
+		<!--  start welcome -->
+		<div class="col-12 col-sm-12 col-md-12 col-lg-9" ally-id="ally-148">
+			<div class="mb-5" ally-id="ally-149">
+				<h2 class="text-white text-center text-lg-start" ally-id="ally-150">
+					أهلا بك في منصة نما
+				</h2>
+				<h3 class="text-center text-lg-start sub-title" ally-id="ally-151">
+					منصة منظومة الخدمات الإلكترونية لقطاعات البيئة والمياه والزراعة
+				</h3>
+			</div>
+			<div class="form-group mb-3 col-12 col-lg-9 search-section" ally-id="ally-152">
+				<div class="search-holder input" ally-id="ally-153">
+					<i class="hgi-stroke hgi-search-01 search-icon" ally-id="ally-154"></i>
+					<form action="/services/setsearchfilter" method="post" ally-id="ally-155">
+						<label for="txtFilter" class="visually-hidden" ally-id="ally-156">البحث:</label>
+						<input type="search" placeholder="البحث في الخدمات" class="form-control form-control-lg search-input-field txtServiceSearchFilter" id="txtFilter" name="txtFilter" autofocus="" autocomplete="off" ally-id="ally-157">
+					<input name="__RequestVerificationToken" type="hidden" value="CfDJ8AU2q1yFgMZEpTywqz0fz_AWiOeHSU3YShhnAFIKkkRyMte1i6_1DNWhjlcF-fdNUFPno51AjjgKz8M1oRr2YBK07Q82JdEGRyHO9qLoo-ngmjgLlducpvMVBzhXIbvRxWh5snEFMxcyq89zzd42a10" ally-id="ally-158"></form>
+				</div>
+			</div>
+				<div class="tags-section col-12 col-lg-9 mb-5 mt-4 pt-3" ally-id="ally-159">
+					<p class="text-white mb-2" ally-id="ally-160">أكثر الكلمات بحثاً :</p>
+					<div class="d-flex gap-2 flex-wrap" ally-id="ally-161">
+							<a href="/services/setsearchfilterlinks?txtFilter=%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA" ally-id="ally-162">
+								<div class="badge" ally-id="ally-163">حيوانات</div>
+							</a>
+							<a href="/services/setsearchfilterlinks?txtFilter=%D9%85%D8%B1%D8%A8%D9%8A%20%D9%85%D8%A7%D8%B4%D9%8A%D8%A9" ally-id="ally-164">
+								<div class="badge" ally-id="ally-165">مربي ماشية</div>
+							</a>
+							<a href="/services/setsearchfilterlinks?txtFilter=%D9%86%D8%AD%D9%84" ally-id="ally-166">
+								<div class="badge" ally-id="ally-167">نحل</div>
+							</a>
+					</div>
+				</div>
+		</div>
+		<!--  end welcome -->
+	</div>
+
+	<!--  start browse services -->
+	<div class="container services-tabs" ally-id="ally-168">
+		<div class="tabs-title" ally-id="ally-169">
+			<h2 class="title" ally-id="ally-170">تصفح الخدمات عبر</h2>
+		</div>
+		<div class="row d-flex flex-wrap align-items-center services-tabs-holder" id="homeTabsHolder" role="tablist" ally-id="ally-171">
+
+			<div class="col-12 col-sm-12 col-md-12 col-lg-4 tab tab-1" role="tab" aria-selected="false" tabindex="0" aria-controls="tabpanel-1" id="tab-1" ally-id="ally-172">
+				<div class="tab-content" ally-id="ally-173">
+					<h3 class="tab-title" ally-id="ally-174">
+						قطاعات نما
+						<svg class="arrow-down-solid" xmlns="http://www.w3.org/2000/svg" aria-label="Browse Via Sectors" viewBox="0 0 320 512" ally-id="ally-175"><path d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z" ally-id="ally-176"></path></svg>
+					</h3>
+					<p class="tab-desc" ally-id="ally-177">استعراض الخدمات حسب القطاعات</p>
+					<div class="tab-inner-content bg-white sectors-tab" id="tabpanel-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0" aria-describedby="tab-desc-1" ally-id="ally-178">
+						<div class="container-fluid" id="NamaaSectors" ally-id="ally-179">
+							<div class="row py-3 pt-lg-5 pb-lg-3 tab-services-holder" ally-id="ally-180">
+									<div class="col-12 col-sx-12 col-sm-6 col-md-6 col-lg-4" ally-id="ally-181">
+										<a class="sector-card d-flex" href="/services?sector=3cbd676e-2762-47db-b07b-0a82cb605f08" ally-id="ally-182">
+											<div class="sector-icon" ally-id="ally-183">
+												<img src="/assets/images/sector-agriculture.svg" alt="قطاع الزراعة" class="img-fluid" ally-id="ally-184">
+											</div>
+											<div class="sector-text" ally-id="ally-185">
+												<h4 class="text-primary" ally-id="ally-186">قطاع الزراعة</h4>
+												<p class="text-primary" ally-id="ally-187">الخدمات التي تختص بقطاع الزراعة والمحاصيل الزراعية وتربية الحيوانات تشمل جميع الأنشطة المتعلقة بزراعة الأرض, حصاد المحاصيل, وتربية الحيوانات.</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-12 col-sx-12 col-sm-6 col-md-6 col-lg-4" ally-id="ally-188">
+										<a class="sector-card d-flex" href="/services?sector=445bab73-6308-46aa-b057-26cee5f997f6" ally-id="ally-189">
+											<div class="sector-icon" ally-id="ally-190">
+												<img src="/assets/images/sector-water.svg" alt="قطاع المياه" class="img-fluid" ally-id="ally-191">
+											</div>
+											<div class="sector-text" ally-id="ally-192">
+												<h4 class="text-primary" ally-id="ally-193">قطاع المياه</h4>
+												<p class="text-primary" ally-id="ally-194">الخدمات التي تختص بقطاع المياه تشمل جميع الأنشطة المتعلقة بإدارة وتنظيم الموارد المائية يشمل هذا القطاع حفر الآبار واستخدامات مصادر المياه (الآبار).</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-12 col-sx-12 col-sm-6 col-md-6 col-lg-4" ally-id="ally-195">
+										<a class="sector-card d-flex" href="/services?sector=77067450-dd17-4a65-a07a-96aed78dbeb5" ally-id="ally-196">
+											<div class="sector-icon" ally-id="ally-197">
+												<img src="/assets/images/sector-environment.svg" alt="قطاع البيئة" class="img-fluid" ally-id="ally-198">
+											</div>
+											<div class="sector-text" ally-id="ally-199">
+												<h4 class="text-primary" ally-id="ally-200">قطاع البيئة</h4>
+												<p class="text-primary" ally-id="ally-201">الخدمات التي تختص بقطاع البيئة تشمل جميع الأنشطة المتعلقة بحماية الموارد الطبيعية و الحفاظ على التوازن البيئي.</p>
+											</div>
+										</a>
+									</div>
+									<div class="col-12 col-sx-12 col-sm-6 col-md-6 col-lg-4" ally-id="ally-202">
+										<a class="sector-card d-flex" href="/services?sector=8976445d-34f3-450d-a8b6-a4ba87435b12" ally-id="ally-203">
+											<div class="sector-icon" ally-id="ally-204">
+												<img src="/assets/images/naama-smallLogo.svg" alt="عام" class="img-fluid" ally-id="ally-205">
+											</div>
+											<div class="sector-text" ally-id="ally-206">
+												<h4 class="text-primary" ally-id="ally-207">عام</h4>
+												<p class="text-primary" ally-id="ally-208">الخدمات التي تشمل جميع الأنشطة والخدمات التي لا تندرج ضمن القطاعات الأخرى (البيئة، المياه، الزراعة) وتشمل الخدمات العامة والإدارية التي تقدمها الجهات الحكومية.</p>
+											</div>
+										</a>
+									</div>
+								<hr class="col-12 w-100 mx-auto" ally-id="ally-209">
+								<div class="col-12 all-services justify-content-center justify-content-lg-end" ally-id="ally-210">
+									<a class="btn btn-transparent d-inline-flex align-items-center gap-1" href="/services" ally-id="ally-211">
+										استعرض جميع الخدمات
+										<i class="hgi-stroke hgi-arrow-left-02" ally-id="ally-212"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-12 col-md-12 col-lg-4 tab tab-2" role="tab" aria-selected="false" tabindex="0" aria-controls="tabpanel-2" id="tab-2" ally-id="ally-213">
+				<div class="tab-content" ally-id="ally-214">
+					<h3 class="tab-title" ally-id="ally-215">
+						المستفيدين
+						<svg class="arrow-down-solid" xmlns="http://www.w3.org/2000/svg" aria-label="Browse Via Beneficiaries" viewBox="0 0 320 512" ally-id="ally-216"><path d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z" ally-id="ally-217"></path></svg>
+					</h3>
+					<p class="tab-desc" ally-id="ally-218">استعراض الخدمات حسب المستفيدين</p>
+					<div class="tab-inner-content bg-white beneficiaries-tab" id="tabpanel-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0" aria-describedby="tab-desc-2" ally-id="ally-219">
+						<div class="container-fluid" id="NamaaBeneficiaries" ally-id="ally-220">
+							<div class="row py-3 pt-lg-4 pb-lg-3 tab-services-holder" ally-id="ally-221">
+								<div class="col-12" ally-id="ally-222">
+									<div class="row beneficiaries-grid" id="eservicesbeneficiaries" ally-id="ally-223">
+											<div class="col col-6 col-lg-2 mt-2" ally-id="ally-224">
+												<a class="beneficiar-item text-center rounded-3" style="background-color: #3d1d5e" href="/services?audience=0c1ac9c5-1b45-44c6-b062-8c7e463609ff" ally-id="ally-225">
+													<div class="icon" ally-id="ally-226">
+														<img src="/assets/images/individual.svg" alt="أفراد" ally-id="ally-227">
+													</div>
+													<h6 ally-id="ally-228">أفراد</h6>
+												</a>
+											</div>
+											<div class="col col-6 col-lg-2 mt-2" ally-id="ally-229">
+												<a class="beneficiar-item text-center rounded-3" style="background-color: #25935f" href="/services?audience=40234719-d47d-4fb6-bed3-15b5e59500d3" ally-id="ally-230">
+													<div class="icon" ally-id="ally-231">
+														<img src="/assets/images/business.svg" alt="قطاع أعمال" ally-id="ally-232">
+													</div>
+													<h6 ally-id="ally-233">قطاع أعمال</h6>
+												</a>
+											</div>
+											<div class="col col-6 col-lg-2 mt-2" ally-id="ally-234">
+												<a class="beneficiar-item text-center rounded-3" style="background-color: #1f2a37" href="/services?audience=441ace2a-80e6-4cba-8eb1-8bb82ac72685" ally-id="ally-235">
+													<div class="icon" ally-id="ally-236">
+														<img src="/assets/images/government.svg" alt="جهات حكومية" ally-id="ally-237">
+													</div>
+													<h6 ally-id="ally-238">جهات حكومية</h6>
+												</a>
+											</div>
+											<div class="col col-6 col-lg-2 mt-2" ally-id="ally-239">
+												<a class="beneficiar-item text-center rounded-3" style="background-color: #a57bba" href="/services?audience=a1425742-112f-4821-b02a-09e0bfc2e971" ally-id="ally-240">
+													<div class="icon" ally-id="ally-241">
+														<img src="/assets/images/visitors.svg" alt="زوار المملكة" ally-id="ally-242">
+													</div>
+													<h6 ally-id="ally-243">زوار المملكة</h6>
+												</a>
+											</div>
+											<div class="col col-6 col-lg-2 mt-2" ally-id="ally-244">
+												<a class="beneficiar-item text-center rounded-3" style="background-color: #54c08a" href="/services?audience=bb6efd7c-afb6-4133-80ec-ef03c8096d43" ally-id="ally-245">
+													<div class="icon" ally-id="ally-246">
+														<img src="/assets/images/volunteers.svg" alt="الجمعيات التطوعية" ally-id="ally-247">
+													</div>
+													<h6 ally-id="ally-248">الجمعيات التطوعية</h6>
+												</a>
+											</div>
+									</div>
+								</div>
+
+								<hr class="col-12 w-100 mx-auto" ally-id="ally-249">
+								<div class="col-12 all-services justify-content-center justify-content-lg-end" ally-id="ally-250">
+									<a class="btn btn-transparent d-inline-flex align-items-center gap-1" href="/services" ally-id="ally-251">
+										استعرض جميع الخدمات
+										<i class="hgi-stroke hgi-arrow-left-02" ally-id="ally-252"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-12 col-md-12 col-lg-4 tab tab-3" role="tab" aria-selected="false" tabindex="0" aria-controls="tabpanel-3" id="tab-3" ally-id="ally-253">
+				<div class="tab-content" ally-id="ally-254">
+					<h3 class="tab-title" ally-id="ally-255">
+						تصنيف الخدمات
+						<svg class="arrow-down-solid" xmlns="http://www.w3.org/2000/svg" aria-label="Browse ViaService Categories" viewBox="0 0 320 512" ally-id="ally-256"><path d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z" ally-id="ally-257"></path></svg>
+					</h3>
+					<p class="tab-desc" ally-id="ally-258">استعراض الخدمات حسب نوع الخدمات</p>
+					<div class="tab-inner-content bg-white services-tab" id="tabpanel-3" role="tabpanel" aria-labelledby="tab-3" tabindex="0" aria-describedby="tab-desc-3" ally-id="ally-259">
+						<div class="container-fluid" id="NamaaServices" ally-id="ally-260">
+							<div class="row py-3 pt-lg-4 pb-lg-3 tab-services-holder" ally-id="ally-261">
+								<div class="services-grid" ally-id="ally-262">
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=3d4dfbc0-0584-48d6-9192-86c178d72759" ally-id="ally-263">
+											<span class="service-link-title" ally-id="ally-264">خدمات التراخيص</span>
+											<span class="badge service-link-count" ally-id="ally-265">806</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=c07b8879-4ad4-4811-95e3-7f88895dd5b5" ally-id="ally-266">
+											<span class="service-link-title" ally-id="ally-267">خدمات زراعية</span>
+											<span class="badge service-link-count" ally-id="ally-268">86</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=1afa71cb-93d2-43e9-af62-821e5dbefbfc" ally-id="ally-269">
+											<span class="service-link-title" ally-id="ally-270">رخص مصادر المياه واستخداماتها</span>
+											<span class="badge service-link-count" ally-id="ally-271">71</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=fd488b7d-7ac4-44ff-958f-1711bd721bb7" ally-id="ally-272">
+											<span class="service-link-title" ally-id="ally-273">خدمات الاستيراد والتصدير والفسح</span>
+											<span class="badge service-link-count" ally-id="ally-274">64</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=c5371c23-3afa-4c25-9f1d-2a8b21b1d634" ally-id="ally-275">
+											<span class="service-link-title" ally-id="ally-276">الخدمات الحيوانية</span>
+											<span class="badge service-link-count" ally-id="ally-277">17</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=26647173-6873-4868-a26f-a7a58bcc0718" ally-id="ally-278">
+											<span class="service-link-title" ally-id="ally-279">اصيل</span>
+											<span class="badge service-link-count" ally-id="ally-280">11</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=144933e6-8843-4324-8f55-c958b34580b6" ally-id="ally-281">
+											<span class="service-link-title" ally-id="ally-282">خدمات عامة</span>
+											<span class="badge service-link-count" ally-id="ally-283">10</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=4a9b3bc6-b643-4068-95cb-46bf42e601af" ally-id="ally-284">
+											<span class="service-link-title" ally-id="ally-285">خدمات البيئة</span>
+											<span class="badge service-link-count" ally-id="ally-286">2</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=977778fa-e0c3-4bb6-acc5-4da6d49c20a7" ally-id="ally-287">
+											<span class="service-link-title" ally-id="ally-288">خدمات الدعم المالي</span>
+											<span class="badge service-link-count" ally-id="ally-289">2</span>
+										</a>
+										<a class="service-link btn btn-outline-secondary" type="button" href="/services?categoery=df991a9f-15dd-48bb-8f36-454c133f2893" ally-id="ally-290">
+											<span class="service-link-title" ally-id="ally-291">خدمات الأراضي</span>
+											<span class="badge service-link-count" ally-id="ally-292">1</span>
+										</a>
+								</div>
+
+								<hr class="col-12 w-100 mx-auto" ally-id="ally-293">
+								<div class="col-12 all-services justify-content-center justify-content-lg-end" ally-id="ally-294">
+									<a class="btn btn-transparent d-inline-flex align-items-center gap-1" href="/services" ally-id="ally-295">
+										استعرض جميع الخدمات
+										<i class="hgi-stroke hgi-arrow-left-02" ally-id="ally-296"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--  end browse services -->
+
+</div>
+<!--end index header -->
+<!--start index services -->
+
+<!--start services-->
+<section class="faded-bg-x py-4" ally-id="ally-297">
+	<div class="mt-5 text-center" ally-id="ally-298">
+		<h2 class="mb-3 section-title" ally-id="ally-299">الخدمات الإلكترونية</h2>
+	</div>
+	<div class="container" ally-id="ally-300">
+		<div class="row" ally-id="ally-301">
+			<div class="col-12" ally-id="ally-302">
+				<ul class="nav nav-pills justify-content-center" id="homeServicesTabs" role="tablist" ally-id="ally-303">
+					<li class="nav-item" role="presentation" ally-id="ally-304">
+						<button class="nav-link active" id="most-used" data-bs-toggle="tab" data-bs-target="#most-used-pane" type="button" role="tab" aria-controls="most-used-pane" aria-selected="true" ally-id="ally-305">
+							الأكثر إستخداماً
+						</button>
+					</li>
+					<li class="nav-item" role="presentation" ally-id="ally-306">
+						<button class="nav-link" id="last-added" data-bs-toggle="tab" data-bs-target="#last-added-pane" type="button" role="tab" aria-controls="last-added-pane" aria-selected="false" ally-id="ally-307">
+							المضافة حديثاً
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row mt-55" ally-id="ally-308">
+			<div class="col-12" ally-id="ally-309">
+				<div class="tab-content" id="homeServicesTabsContent" ally-id="ally-310">
+					<div class="tab-pane fade show active" id="most-used-pane" role="tabpanel" aria-labelledby="most-used" ally-id="ally-311">
+						<div class="swiper naama-swiper" id="servicesSwiper" ally-id="ally-312">
+							<div class="swiper-wrapper" ally-id="ally-313">
+									<div class="swiper-slide" ally-id="ally-314">
+										<a class="d-flex service-card h-100" href="/services/details/5b11ad24-ebd9-431c-b6fb-bfae2c168326" ally-id="ally-315">
+											<div class="service-content" ally-id="ally-316">
+												<h2 class="service-title" ally-id="ally-317">إصدار سجل مربي</h2>
+												<p class="mb-4 service-desc" ally-id="ally-318">تمكن هذه الخدمة المواطنين الغير مسجلين والحاصلين على بطاقات صحية بيطرية إلكترونية طلب إصدار سجل مربي إلكتروني جديد</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-319">
+														<span class="badge" ally-id="ally-320">خدمات العيادة البيطرية</span>
+														<span class="badge" ally-id="ally-321">الخدمات الحيوانية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-322">
+													<img src="/assets/images/tree-icon.svg" alt="إصدار سجل مربي" class="service-type-icon" ally-id="ally-323">
+													<span class="service-type-title" ally-id="ally-324">عام</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-325">
+										<a class="d-flex service-card h-100" href="/services/details/954b3cc0-2f71-4353-bb54-450930d63a9f" ally-id="ally-326">
+											<div class="service-content" ally-id="ally-327">
+												<h2 class="service-title" ally-id="ally-328">تفعيل سجل المربي</h2>
+												<p class="mb-4 service-desc" ally-id="ally-329">تمكن هذه الخدمة المواطنين المسجلين والحاصلين على بطاقات صحية بيطرية إلكترونية غير مفعله او ملغيه طلب إعادة تفعيلها حيث يتم تعطيل البطاقة الصحية إلكترونياً خلال ٦ أشهر من تاريخ آخر عملية مسجله عليها</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-330">
+														<span class="badge" ally-id="ally-331">خدمات العيادة البيطرية</span>
+														<span class="badge" ally-id="ally-332">الخدمات الحيوانية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-333">
+													<img src="/assets/images/tree-icon.svg" alt="تفعيل سجل المربي" class="service-type-icon" ally-id="ally-334">
+													<span class="service-type-title" ally-id="ally-335">عام</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-336">
+										<a class="d-flex service-card h-100" href="/services/details/a6ab4ac0-eedb-434a-a97b-7c0c8ef7ecde" ally-id="ally-337">
+											<div class="service-content" ally-id="ally-338">
+												<h2 class="service-title" ally-id="ally-339">طلب عمالة زراعية</h2>
+												<p class="mb-4 service-desc" ally-id="ally-340">هي خدمة تمكن الأفراد وقطاع الأعمال من طلب عمالة زراعية جديدة.</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-341">
+														<span class="badge" ally-id="ally-342">خدمات العمالة الزراعية</span>
+														<span class="badge" ally-id="ally-343">خدمات زراعية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-344">
+													<img src="/assets/images/tree-icon.svg" alt="طلب عمالة زراعية" class="service-type-icon" ally-id="ally-345">
+													<span class="service-type-title" ally-id="ally-346">قطاع الزراعة</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-347">
+										<a class="d-flex service-card h-100" href="/services/details/7c18011c-c9ea-44ef-bb99-c9b4970d9f5e" ally-id="ally-348">
+											<div class="service-content" ally-id="ally-349">
+												<h2 class="service-title" ally-id="ally-350">ادارة بيانات الماشية</h2>
+												<p class="mb-4 service-desc" ally-id="ally-351">خدمة الإلكترونية تمكن مالكي الماشية في المملكة من تحديث بيانات الماشية الخاصة بهم.</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-352">
+														<span class="badge" ally-id="ally-353">طلب ترقيم الثروة الحيوانية</span>
+														<span class="badge" ally-id="ally-354">الخدمات الحيوانية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-355">
+													<img src="/assets/images/tree-icon.svg" alt="ادارة بيانات الماشية" class="service-type-icon" ally-id="ally-356">
+													<span class="service-type-title" ally-id="ally-357">قطاع الزراعة</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-358">
+										<a class="d-flex service-card h-100" href="/services/details/8323bb8f-c339-48a6-8fb8-4c21c857b2ba" ally-id="ally-359">
+											<div class="service-content" ally-id="ally-360">
+												<h2 class="service-title" ally-id="ally-361">إذن استيراد خضار وفواكه</h2>
+												<p class="mb-4 service-desc" ally-id="ally-362">  تمكن هذه الخدمة الشركات و الجهات الحكومية لطلب الإذن لاستيراد الخضار و الفواكه </p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-363">
+														<span class="badge" ally-id="ally-364">خدمات الاستيراد</span>
+														<span class="badge" ally-id="ally-365">خدمات الاستيراد والتصدير والفسح</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-366">
+													<img src="/assets/images/tree-icon.svg" alt="إذن استيراد خضار وفواكه" class="service-type-icon" ally-id="ally-367">
+													<span class="service-type-title" ally-id="ally-368">قطاع الزراعة</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-369">
+										<a class="d-flex service-card h-100" href="/services/details/4a95332d-1511-44ff-9e5a-e0b103a89830" ally-id="ally-370">
+											<div class="service-content" ally-id="ally-371">
+												<h2 class="service-title" ally-id="ally-372">طلب ترقيم الماشية</h2>
+												<p class="mb-4 service-desc" ally-id="ally-373">تسمح هذه الخدمة للمستفيدين بطلب ترقيم الماشية الكترونياً.</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-374">
+														<span class="badge" ally-id="ally-375">طلب ترقيم الثروة الحيوانية</span>
+														<span class="badge" ally-id="ally-376">الخدمات الحيوانية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-377">
+													<img src="/assets/images/tree-icon.svg" alt="طلب ترقيم الماشية" class="service-type-icon" ally-id="ally-378">
+													<span class="service-type-title" ally-id="ally-379">قطاع الزراعة</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-380">
+										<a class="d-flex service-card h-100" href="/services/details/3efc02a4-d23a-45de-9b3c-e651f0dee4e5" ally-id="ally-381">
+											<div class="service-content" ally-id="ally-382">
+												<h2 class="service-title" ally-id="ally-383">برنامج دعم صغار مربي الماشية</h2>
+												<p class="mb-4 service-desc" ally-id="ally-384">برنامج دعم صغار مربي الماشية هو أحد برامج التنمية الريفية الزراعية المستدامة، تحت مظلة برنامج الإعانات الزراعية في نسخته الجديدة ليتوافق مع تطلعات رؤية المملكة 2030، حيث يهدف لتعظيم الاستفادة من دعم الغذاء من خلال توجيه الدعم لمستحقيه.</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-385">
+														<span class="badge" ally-id="ally-386">خدمات الدعم المالي</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-387">
+													<img src="/assets/images/tree-icon.svg" alt="برنامج دعم صغار مربي الماشية" class="service-type-icon" ally-id="ally-388">
+													<span class="service-type-title" ally-id="ally-389">عام</span>
+												</div>
+										</a>
+									</div>
+									<div class="swiper-slide" ally-id="ally-390">
+										<a class="d-flex service-card h-100" href="/services/details/a0a935a5-ad83-4ae4-8722-374d373014eb" ally-id="ally-391">
+											<div class="service-content" ally-id="ally-392">
+												<h2 class="service-title" ally-id="ally-393">تسجيل موقع زراعي</h2>
+												<p class="mb-4 service-desc" ally-id="ally-394">خدمة تسجيل موقع زراعي جديد</p>
+												<div class="d-flex flex-wrap gap-2 service-tags" ally-id="ally-395">
+														<span class="badge" ally-id="ally-396">خدمات السجل الزراعي</span>
+														<span class="badge" ally-id="ally-397">خدمات زراعية</span>
+												</div>
+											</div>
+												<div class="service-type" ally-id="ally-398">
+													<img src="/assets/images/tree-icon.svg" alt="تسجيل موقع زراعي" class="service-type-icon" ally-id="ally-399">
+													<span class="service-type-title" ally-id="ally-400">قطاع الزراعة</span>
+												</div>
+										</a>
+									</div>
+							</div>
+							<div class="indicators-holder p-3 d-flex align-content-between " ally-id="ally-401">
+								<!-- controllers -->
+								<div class="indicators-nav d-flex" ally-id="ally-402">
+									<button class="swiper-button-prev" ally-id="ally-403">
+										<i class="hgi-stroke hgi-arrow-right-01" ally-id="ally-404"></i>
+									</button>
+									<button class="swiper-button-next" ally-id="ally-405">
+										<i class="hgi-stroke hgi-arrow-left-01" ally-id="ally-406"></i>
+									</button>
+								</div>
+								<!-- Indicators -->
+								<div class="swiper-pagination my-auto  justify-content-end" ally-id="ally-407">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="last-added-pane" role="tabpanel" aria-labelledby="last-added" ally-id="ally-408">
+						<div class="swiper naama-swiper" id="servicesSwiper2" ally-id="ally-409">
+							<div class="swiper-wrapper" ally-id="ally-410">
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/a7568265-3a05-482c-8150-12162824c482" ally-id="ally-411">
+										<div class="service-content" ally-id="ally-412">
+											<h2 class="service-title" ally-id="ally-413">إصدار ترخيص انتاج السماد من المواد العضوية </h2>
+											<p class="mb-4 service-desc" ally-id="ally-414">خدمة مبدئي لانتاج السماد من المواد العضوية</p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-415">
+													<span class="badge" ally-id="ally-416">مشاريع الثروة النباتية</span>
+													<span class="badge" ally-id="ally-417">الثروة النباتية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-418">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-419">
+												<span class="service-type-title" ally-id="ally-420">قطاع الزراعة</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/e252e30f-bfe9-46fe-9901-c31318879c4e" ally-id="ally-421">
+										<div class="service-content" ally-id="ally-422">
+											<h2 class="service-title" ally-id="ally-423"> خدمة تجديد تصاريح تأهيل أعمال المسح الجيوفيزيائي السطحي</h2>
+											<p class="mb-4 service-desc" ally-id="ally-424">عبارة عن خدمة فرعية تكاملية مؤتمتة، تهدف الى توفير قناة للمستفيدين من قطاع الاعمال، بتقديم طلب تجديد مدة تصريح تأهيل أعمال المسح الجيوفيزيائي السطحي الى الإدارة العامة لتنظيم مصادر المياه في وزارة المياه والبيئة والزراعة للمراجعة والبت فيه.</p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-425">
+													<span class="badge" ally-id="ally-426">الخدمات المساندة لمصادر المياه</span>
+													<span class="badge" ally-id="ally-427">رخص مصادر المياه واستخداماتها</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-428">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع المياه" class="service-type-icon" ally-id="ally-429">
+												<span class="service-type-title" ally-id="ally-430">قطاع المياه</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/27c6c7cc-7888-4189-92eb-1f8fa7c7453b" ally-id="ally-431">
+										<div class="service-content" ally-id="ally-432">
+											<h2 class="service-title" ally-id="ally-433">خدمة تحديث تصريح تأهيل أعمال المسح الجيوفيزيائي السطحي</h2>
+											<p class="mb-4 service-desc" ally-id="ally-434">عبارة عن خدمة فرعية تكاملية مؤتمتة، تهدف الى توفير قناة للمستفيدين من قطاع الاعمال، بتقديم طلب تحديث تصريح تأهيل أعمال المسح الجيوفيزيائي السطحي الى الإدارة العامة لتنظيم مصادر المياه في وزارة المياه والبيئة والزراعة للمراجعة والبت فيه. </p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-435">
+													<span class="badge" ally-id="ally-436">الخدمات المساندة لمصادر المياه</span>
+													<span class="badge" ally-id="ally-437">رخص مصادر المياه واستخداماتها</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-438">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع المياه" class="service-type-icon" ally-id="ally-439">
+												<span class="service-type-title" ally-id="ally-440">قطاع المياه</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/57ab5b9f-4a4b-4395-8357-ad4001320aa0" ally-id="ally-441">
+										<div class="service-content" ally-id="ally-442">
+											<h2 class="service-title" ally-id="ally-443">إصدار ترخيص تركيب البيوت الزراعية</h2>
+											<p class="mb-4 service-desc" ally-id="ally-444"> خدمة مجانية مقدمة من وزارة البيئة والمياه والزراعة تمكن أصحاب المنشآت من الحصول على ترخيص لتركيب البيوت الزراعية. التي تستخدم لزراعة النباتات في بيئة مهيأة من خلال التحكم بدرجة الحرارة والرطوبة والإضاءة لتحسين نمو المحاصيل. </p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-445">
+													<span class="badge" ally-id="ally-446">مشاريع الثروة النباتية</span>
+													<span class="badge" ally-id="ally-447">الثروة النباتية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-448">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-449">
+												<span class="service-type-title" ally-id="ally-450">قطاع الزراعة</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/08c80d28-a3e0-425c-ab57-93c523ebaa03" ally-id="ally-451">
+										<div class="service-content" ally-id="ally-452">
+											<h2 class="service-title" ally-id="ally-453">إلغاء ترخيص المتاجر الالكترونية للأفراد لتسويق المنتجات الزراعية</h2>
+											<p class="mb-4 service-desc" ally-id="ally-454">تمكين أصحاب المتاجر الإلكترونية من الأفراد السعوديين ملاك المزارع ومنتجي المحاصيل الذين لديهم سجل زراعي أو من يتعاقد معهم من إلغاء ترخيص تسويق المنتجات الزراعية قبل نهاية مدته.</p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-455">
+													<span class="badge" ally-id="ally-456">خدمات زراعية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-457">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-458">
+												<span class="service-type-title" ally-id="ally-459">قطاع الزراعة</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/41abf137-0eb2-4044-afee-029296a6a6be" ally-id="ally-460">
+										<div class="service-content" ally-id="ally-461">
+											<h2 class="service-title" ally-id="ally-462">إصدار ترخيص المتاجر الالكترونية للأفراد لتسويق المنتجات الزراعية</h2>
+											<p class="mb-4 service-desc" ally-id="ally-463">تمكين أصحاب المتاجر الإلكترونية من الأفراد السعوديين ملاك المزارع ومنتجي المحاصيل الذين لديهم سجل زراعي أو من يتعاقد معهم لتسويق المنتجات الزراعية كمواد أولية أو معبأة </p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-464">
+													<span class="badge" ally-id="ally-465">خدمات زراعية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-466">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-467">
+												<span class="service-type-title" ally-id="ally-468">قطاع الزراعة</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/9fd92f19-3ad7-42c5-961a-c1309d26bb00" ally-id="ally-469">
+										<div class="service-content" ally-id="ally-470">
+											<h2 class="service-title" ally-id="ally-471">تجديد ترخيص المتاجر الالكترونية للأفراد لتسويق المنتجات الزراعية</h2>
+											<p class="mb-4 service-desc" ally-id="ally-472">تمكين أصحاب المتاجر الإلكترونية من الأفراد السعوديين ملاك المزارع ومنتجي المحاصيل الذين لديهم سجل زراعي أو من يتعاقد معهم لتجديد ترخيص تسويق المنتجات الزراعية كمواد أولية أو معبأة لمدة سنة واحدة .</p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-473">
+													<span class="badge" ally-id="ally-474">خدمات زراعية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-475">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-476">
+												<span class="service-type-title" ally-id="ally-477">قطاع الزراعة</span>
+											</div>
+									</a>
+									<a class="d-flex swiper-slide service-card h-100" href="/services/details/3f967df1-df8b-4976-b1e0-d7e63a393520" ally-id="ally-478">
+										<div class="service-content" ally-id="ally-479">
+											<h2 class="service-title" ally-id="ally-480">تجديد ترخيص مركبة لخدمات الانتاج الحيواني</h2>
+											<p class="mb-4 service-desc" ally-id="ally-481">هي خدمة تقدمها وزارة البيئة والمياه والزراعة، تمكّن أصحاب المنشآت من تجديد ترخيص مركبة لتقديم خدمات متخصصة تتعلق بالإنتاج الحيواني في قطاع الثروة الحيوانية، لا تشمل تقديم الخدمات الطبية أو الجراحية.</p>
+											<div class="d-flex gap-2 service-tags" ally-id="ally-482">
+													<span class="badge" ally-id="ally-483">خدمات زراعية</span>
+											</div>
+										</div>
+											<div class="service-type" ally-id="ally-484">
+												<img src="/assets/images/tree-icon.svg" alt="قطاع الزراعة" class="service-type-icon" ally-id="ally-485">
+												<span class="service-type-title" ally-id="ally-486">قطاع الزراعة</span>
+											</div>
+									</a>
+							</div>
+							<div class="indicators-holder p-3 d-flex align-content-between " ally-id="ally-487">
+								<!-- controllers -->
+								<div class="indicators-nav d-flex" ally-id="ally-488">
+									<button class="swiper-button-prev" ally-id="ally-489">
+										<i class="hgi-stroke hgi-arrow-right-01" ally-id="ally-490"></i>
+									</button>
+									<button class="swiper-button-next" ally-id="ally-491">
+										<i class="hgi-stroke hgi-arrow-left-01" ally-id="ally-492"></i>
+									</button>
+								</div>
+								<!-- Indicators -->
+								<div class="swiper-pagination my-auto  justify-content-end" ally-id="ally-493">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--end services -->
+<!--start banner section-->
+<!--end banner section-->
+<!--start user services-->
+<!--end user services-->
+<!--end index services -->
+<!--start about section-->
+<section class="about-section" ally-id="ally-494">
+	<div class="container" ally-id="ally-495">
+		<div class="row d-flex flex-wrap mt-7" ally-id="ally-496">
+			<div class="col col-12 col-lg-6 content-holder" ally-id="ally-497">
+				<div class="col col-12 mb-5" ally-id="ally-498">
+					<h2 class="section-title" ally-id="ally-499">
+						منصة الخدمات الإلكترونية الموحدة لمنظومة وزارة البيئة والمياه والزراعة
+					</h2>
+				</div>
+				<div class="col col-12 mb-55" ally-id="ally-500">
+					<div class="d-flex gap-4" ally-id="ally-501">
+						<div class="" ally-id="ally-502">
+							<h3 class="primary-paragraph fs-18 mb-2 sub-section-title" ally-id="ally-503">
+								نما جزء من التحول الرقمي لمنظومة الوزارة
+							</h3>
+							<p class="mb-3 secondary-paragraph sub-section-desc" ally-id="ally-504">
+								سعياً لحقيق مستهدفات رؤية 2030 وتماشياً مع استراتيجية الوزارة تعمل المنصة على تطوير النماذج والعمليات والتشغيل بشكل مبتكر ومرن من خلال الاستثمار في التقنيات الذكية والناشئة وتطوير المواهب وإعادة تنظيم العمليات.
+							</p>
+							<div class="d-flex align-items-center mt-4" ally-id="ally-505">
+								<div class="border-top flex-grow-1" ally-id="ally-506"></div>
+								<a class="btn btn-light btn-sm fw-bold text-dark d-inline-flex align-items-center gap-1 px-44" href="/pages/about" ally-id="ally-507">
+									<i class="hgi-stroke hgi-new-releases fs-18" ally-id="ally-508"></i>
+									عن نما
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col col-12 mb-55" ally-id="ally-509">
+					<div class="d-flex gap-4" ally-id="ally-510">
+						<div class="" ally-id="ally-511">
+							<h4 class="primary-paragraph fs-18 mb-2 sub-section-title" ally-id="ally-512">
+								منصة نما للخدمات الإلكترونية
+							</h4>
+							<p class="mb-3 secondary-paragraph sub-section-desc" ally-id="ally-513">
+								العمل على تقديم أفضل تجربة للمستخدم والمستفيد من الخدمات الإلكترونية التي تقدمها الوزارة وتحسين وتطوير وتيسير تقديم الطلبات ومتابعتها من خلال المنصة.
+							</p>
+							<div class="d-flex align-items-center mt-4" ally-id="ally-514">
+								<div class="border-top flex-grow-1" ally-id="ally-515"></div>
+								<a class="btn btn-light btn-sm fw-bold text-dark d-inline-flex align-items-center gap-1 px-44" href="/services" ally-id="ally-516">
+									<i class="hgi-stroke hgi-power-service fs-18" ally-id="ally-517"></i>
+									دليل الخدمات الإلكترونية
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col col-12 mb-55" ally-id="ally-518">
+					<div class="d-flex gap-4" ally-id="ally-519">
+						<div class="" ally-id="ally-520">
+							<h4 class="primary-paragraph fs-18 mb-2 sub-section-title" ally-id="ally-521">
+								دعم متواصل وتحقيق تجربة فريدة للمستفيد
+							</h4>
+							<p class="mb-3 secondary-paragraph sub-section-desc" ally-id="ally-522">
+								تقديم الدعم والمساعدة من خلال الخط الساخن لحل أي عقبات قد تواجه المستفيدين ومن خلال مجموعة من قنوات التواصل لمعالجة الطلبات والشكاوى خلال المدة الزمنية المحددة.
+							</p>
+							<div class="d-flex align-items-center mt-4" ally-id="ally-523">
+								<div class="border-top flex-grow-1" ally-id="ally-524"></div>
+								<a class="btn btn-light btn-sm fw-bold text-dark d-inline-flex align-items-center gap-1 px-44" href="/pages/contactus" ally-id="ally-525">
+									<i class="hgi-stroke hgi-question fs-18" ally-id="ally-526"></i>
+									تواصل معنا
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col col-12 col-lg-6 video-bg-holder" ally-id="ally-527">
+				<div class="video-bg" ally-id="ally-528">
+                    <div class="video-action" ally-id="ally-529">
+						<button href="/videos/NAAMAArabic.mp4" class="btn btn-play" data-toggle="lightbox" data-type="video" data-title="التعريف بالمنصة" aria-label="التعريف بالمنصة" ally-id="ally-530">
+							<span class="visually-hidden" ally-id="ally-531">التعريف بالمنصة</span>
+							<i class="hgi-stroke hgi-play" aria-hidden="true" ally-id="ally-532"></i>
+						</button>
+						<span class="video-title text-white" ally-id="ally-533">التعريف بالمنصة</span>
+						<span class="video-desc text-white" ally-id="ally-534">1:05 دقيقة</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!--end about section-->
+<!--start News section-->
+	<section class="news mt-10 pt-44" ally-id="ally-535">
+		<div class="container" ally-id="ally-536">
+			<div class="row mb-3" ally-id="ally-537">
+				<div class="col-12" ally-id="ally-538">
+					<div class="d-flex justify-content-between align-items-center block-title gap-4" ally-id="ally-539">
+						<div class="d-flex align-items-end section-title-block flex-wrap" ally-id="ally-540">
+							<div class="title-text" ally-id="ally-541">
+								<h2 class="section-title" ally-id="ally-542">أخر أخبار منصة نما</h2>
+							</div>
+						</div>
+						<a class="btn btn-transparent d-inline-flex align-items-center gap-1 section-more ps-0" href="/news" ally-id="ally-543">
+							جميع الأخبار
+							<i class="hgi-stroke hgi-arrow-left-02" ally-id="ally-544"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row" ally-id="ally-545">
+				<div class="col-12" ally-id="ally-546">
+					<div class="swiper naama-swiper" id="newsSwiper" ally-id="ally-547">
+						<div class="swiper-wrapper" ally-id="ally-548">
+								<div class="swiper-slide" ally-id="ally-549">
+									<a href="/news/details/eyuo9465-c8cb-4a14-b170-6d3bd031tr7a" ally-id="ally-550">
+										<img src="/assets/images/news/008.webp" class="d-block w-100" alt="&quot;البيئة&quot; تحقق ريادة سعودية عالمية بفوزها بشهادة تميز في القمة العالمية لمجتمع المعلومات 2025" ally-id="ally-551">
+										<div class="slide-text py-4 px-5" ally-id="ally-552">
+											<h3 class="mb-2 title" ally-id="ally-553">
+												"البيئة" تحقق ريادة سعودية عالمية بفوزها بشهادة تميز في القمة العالمية لمجتمع المعلومات 2025
+											</h3>
+											<div class="fs-6 fw-semibold pt-1 date" ally-id="ally-554">
+												20/08/2025
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide" ally-id="ally-555">
+									<a href="/news/details/270b720a-f751-4318-878b-dac642c2322a" ally-id="ally-556">
+										<img src="/assets/images/news/002.webp" class="d-block w-100" alt="حققت الوزارة مركز متقدم بالمرتبة السابعة في مؤشر #جاهزية_تبني_التقنيات_الناشئة لعام 2025." ally-id="ally-557">
+										<div class="slide-text py-4 px-5" ally-id="ally-558">
+											<h3 class="mb-2 title" ally-id="ally-559">
+												حققت الوزارة مركز متقدم بالمرتبة السابعة في مؤشر #جاهزية_تبني_التقنيات_الناشئة لعام 2025.
+											</h3>
+											<div class="fs-6 fw-semibold pt-1 date" ally-id="ally-560">
+												12/02/2025
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide" ally-id="ally-561">
+									<a href="/news/details/ef6b9465-c8cb-4a14-b160-6d3bd031dd7a" ally-id="ally-562">
+										<img src="/assets/images/news/005.webp" class="d-block w-100" alt="أفضل تجربة رقمية للمستفيدين في القطاع الحكومي" ally-id="ally-563">
+										<div class="slide-text py-4 px-5" ally-id="ally-564">
+											<h3 class="mb-2 title" ally-id="ally-565">
+												أفضل تجربة رقمية للمستفيدين في القطاع الحكومي
+											</h3>
+											<div class="fs-6 fw-semibold pt-1 date" ally-id="ally-566">
+												26/11/2024
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide" ally-id="ally-567">
+									<a href="/news/details/358dc3b4-b8ed-4544-96ff-3cbe594a31d8" ally-id="ally-568">
+										<img src="/assets/images/news/003.webp" class="d-block w-100" alt="إطلاق خدمة ”NaamaAi”." ally-id="ally-569">
+										<div class="slide-text py-4 px-5" ally-id="ally-570">
+											<h3 class="mb-2 title" ally-id="ally-571">
+												إطلاق خدمة ”NaamaAi”.
+											</h3>
+											<div class="fs-6 fw-semibold pt-1 date" ally-id="ally-572">
+												11/09/2024
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="swiper-slide" ally-id="ally-573">
+									<a href="/news/details/e98410db-805d-4c66-85f1-be0cb6a2c640" ally-id="ally-574">
+										<img src="/assets/images/news/007.webp" class="d-block w-100" alt="المملكة تحقق المرتبة الأولى عالمياً لمجتمع المعلومات 2023م عن فئة البيئة الرقمية" ally-id="ally-575">
+										<div class="slide-text py-4 px-5" ally-id="ally-576">
+											<h3 class="mb-2 title" ally-id="ally-577">
+												المملكة تحقق المرتبة الأولى عالمياً لمجتمع المعلومات 2023م عن فئة البيئة الرقمية
+											</h3>
+											<div class="fs-6 fw-semibold pt-1 date" ally-id="ally-578">
+												20/03/2023
+											</div>
+										</div>
+									</a>
+								</div>
+						</div>
+						<div class="indicators-holder p-3 d-flex align-content-between" ally-id="ally-579">
+							<div class="indicators-nav d-flex" ally-id="ally-580">
+								<button class="swiper-button-prev" ally-id="ally-581">
+									<i class="hgi-stroke hgi-arrow-right-01" ally-id="ally-582"></i>
+								</button>
+								<button class="swiper-button-next" ally-id="ally-583">
+									<i class="hgi-stroke hgi-arrow-left-01" ally-id="ally-584"></i>
+								</button>
+							</div>
+							<div class="swiper-pagination my-auto  justify-content-end" ally-id="ally-585">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--end News section-->
+<!--start statistics section -->
+<section class="mt-5 py-66 stats-section" ally-id="ally-586">
+	<div class="container" ally-id="ally-587">
+		<div class="container" ally-id="ally-588">
+			<div class="row mb-5" ally-id="ally-589">
+				<div class="col-12" ally-id="ally-590">
+					<h2 class="section-title" ally-id="ally-591">المنصة في أرقام</h2>
+				</div>
+			</div>
+			<div class="row row-gap-5 my-5 py-4" ally-id="ally-592">
+					<div class="col col-12 col-sm-6 col-md-3" ally-id="ally-593">
+						<div class="stat-card" ally-id="ally-594">
+							<i class="hgi-stroke hgi-user-group icon" ally-id="ally-595"></i>
+							<h3 class="count" ally-id="ally-596">1657248</h3>
+							<p class="desc" ally-id="ally-597">عدد المستفيدين من منصة نما</p>
+						</div>
+					</div>
+				<div class="col col-12 col-sm-6 col-md-3" ally-id="ally-598">
+					<div class="stat-card" ally-id="ally-599">
+						<i class="hgi-stroke hgi-computer-cloud icon" ally-id="ally-600"></i>
+						<h3 class="count" ally-id="ally-601">1090</h3>
+						<p class="desc" ally-id="ally-602">العدد الإجمالي للخدمات الإلكترونية</p>
+					</div>
+				</div>
+				<div class="col col-12 col-sm-6 col-md-3" ally-id="ally-603">
+					<div class="stat-card" ally-id="ally-604">
+						<i class="hgi-stroke hgi-thumbs-up-down icon" ally-id="ally-605"></i>
+						<h3 class="count" ally-id="ally-606">4.77</h3>
+						<p class="desc" ally-id="ally-607">متوسط تقييم الخدمات الإلكترونية</p>
+					</div>
+				</div>
+				<div class="col col-12 col-sm-6 col-md-3" ally-id="ally-608">
+					<div class="stat-card" ally-id="ally-609">
+						<a aria-label="Read more about naama services waiting list" href="/services/waitinglist" ally-id="ally-610">
+							<i class="hgi-stroke hgi-time-setting-01 icon" ally-id="ally-611"></i>
+						</a>
+						<h3 class="count" ally-id="ally-612">3</h3>
+						<p class="desc" ally-id="ally-613">عدد الخدمات على قائمة الانتظار</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row" ally-id="ally-614">
+				<div class="col-12 text-center" ally-id="ally-615">
+					<a class="btn btn-transparent d-inline-flex align-items-center gap-1 on-color d-inline-flex align-items-center gap-1 fs-14 section-more" href="/pages/statistics" ally-id="ally-616">
+						إحصائيات نما
+						<i class="hgi-stroke hgi-arrow-left-02" ally-id="ally-617"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--end statistics section -->
+
+
+    </main>
+    <!--end page content-->
+    <!--start pre-footer-->
+    <section class="pre-footer" aria-labelledby="feedback-normal" id="pre-footer" data-href="/home/pagefeedback" ally-id="ally-618">
+    </section>
+    <!--end pre-footer-->
+    <!--start footer-->
+    <footer class="main-footer" ally-id="ally-619">
+        <div class="container footer-content" ally-id="ally-620">
+            <div class="row mb-5" ally-id="ally-621">
+                <div class="col col-12 col-lg-3" ally-id="ally-622">
+                    <h4 class="section-title" ally-id="ally-623">روابط تهمك</h4>
+                    <ul class="list-unstyled footer-list" ally-id="ally-624">
+                        <li class="list-item" ally-id="ally-625">
+                            <a href="https://www.mewa.gov.sa/ar/aboutPortal/Pages/ClientCharter.aspx" class="" ally-id="ally-626">ميثاق العملاء</a>
+                        </li>
+                        <li class="list-item" ally-id="ally-627">
+                            <a href="https://www.mewa.gov.sa/ar/HowWeCanHelp/MinistryContactInfo/Pages/main.aspx" class="" ally-id="ally-628">كيف تصل الى مواقعنا</a>
+                        </li>
+                        <li class="list-item" ally-id="ally-629">
+                            <a href="https://www.my.gov.sa/wps/portal/snp/main/" class="" ally-id="ally-630">المنصة الوطنية الموحدة</a>
+                        </li>
+                        <li class="list-item" ally-id="ally-631">
+                            <a href="https://www.mewa.gov.sa/ar/Pages/default.aspx" class="" ally-id="ally-632">وزارة البيئة والمياه والزراعة</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col col-12 col-lg-6" ally-id="ally-633">
+                    <div id="topServices" class="row" ally-id="ally-634">
+                    </div>
+                </div>
+
+                <div class="col col-12 col-lg-3 mt-4 mt-lg-0" ally-id="ally-635">
+                    <h4 class="section-title" ally-id="ally-636">تواصل معنا</h4>
+                    <div class="social-media" ally-id="ally-637">
+                        <a href="https://www.mewa.gov.sa/ar/MediaCenter/RSS/Pages/default.aspx" data-toggle="tooltip" class="social-media-link" title="خدمة RSS" ally-id="ally-638">
+                            <i class="hgi-stroke hgi-rss" ally-id="ally-639"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/MOAKSA2013" class="social-media-link" data-toggle="tooltip" title="حساب اليوتيوب" ally-id="ally-640">
+                            <i class="hgi-stroke hgi-youtube" ally-id="ally-641"></i>
+                        </a>
+                        <a href="https://x.com/MEWA_KSA" class="social-media-link" data-toggle="tooltip" title="حساب تويتر" ally-id="ally-642">
+                            <i class="hgi-stroke hgi-new-twitter" ally-id="ally-643"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mewa_ksa/" class="social-media-link" data-toggle="tooltip" title="حساب انستجرام" ally-id="ally-644">
+                            <i class="hgi-stroke hgi-instagram" ally-id="ally-645"></i>
+                        </a>
+                        <a href="https://www.snapchat.com/add/mewa_ksa" class="social-media-link" data-toggle="tooltip" title="حساب سناب شات" ally-id="ally-646">
+                            <i class="hgi-stroke hgi-snapchat" ally-id="ally-647"></i>
+                        </a>
+                    </div>
+
+                    <h4 class="section-title mt-44" ally-id="ally-648">أدوات الإتاحة والوصول</h4>
+                    <div class="social-media" ally-id="ally-649">
+                        <button type="button" class="social-media-link btn btn-transparent fw-normal" id="toggle-grayscale" data-toggle="tooltip" title="وضع التدرج الرمادي" aria-label="وضع التدرج الرمادي" ally-id="ally-650">
+                            <span class="visually-hidden" ally-id="ally-651">وضع التدرج الرمادي</span>
+                            <i class="hgi-stroke hgi-view-off-slash" aria-hidden="true" ally-id="ally-652"></i>
+                        </button>
+                        <button class="social-media-link btn btn-transparent fw-normal px-2" id="increase-font" data-toggle="tooltip" title="تكبير الخط" ally-id="ally-653">
+                            <img src="/assets/images/a-pluse.svg" width="100%" alt="increase" ally-id="ally-654">
+                        </button>
+                        <button class="social-media-link btn btn-transparent fw-normal px-2" id="reset-font" data-toggle="tooltip" title="استعادة الخط الأصلي" ally-id="ally-655">
+                            <img src="/assets/images/a.svg" width="100%" alt="reset" ally-id="ally-656">
+                        </button>
+                        <button class="social-media-link btn btn-transparent fw-normal px-2" id="decrease-font" data-toggle="tooltip" title="تصغير الخط" ally-id="ally-657">
+                            <img src="/assets/images/a-.svg" width="100%" alt="decrease" ally-id="ally-658">
+                        </button>
+                    </div>
+
+                    <h4 class="section-title mt-44" ally-id="ally-659">تطبيق وزارة البيئة والمياه والزراعة <span title="عمليات التحميل" ally-id="ally-660"> (+798000)</span></h4>
+                    <div class="d-flex align-items-center stores gap-2" ally-id="ally-661">
+                        <a href="https://play.google.com/store/apps/details?id=com.mewa.mowecitizens" target="_blank" rel="noopener noreferrer" ally-id="ally-662">
+                            <img src="/assets/images/google-play.svg" class="img-fluid" alt="google play image" ally-id="ally-663">
+                            <span hidden="" ally-id="ally-664">Dowload App (opens in new window)</span>
+                        </a>
+                        <a href="https://apps.apple.com/sa/app/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-%D9%88%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9/id1403130251" target="_blank" rel="noopener noreferrer" ally-id="ally-665">
+                            <img src="/assets/images/app-store.svg" class="img-fluid" alt="app store image" ally-id="ally-666">
+                            <span hidden="" ally-id="ally-667">Dowload App (opens in new window)</span>
+                        </a>
+                        <a href="https://appgallery.huawei.com/app/C104745249" target="_blank" rel="noopener noreferrer" ally-id="ally-668">
+                            <img src="/assets/images/app-gallery.svg" class="img-fluid" alt="app gallery image" ally-id="ally-669">
+                            <span hidden="" ally-id="ally-670">Dowload App (opens in new window)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom py-4 mt-5" ally-id="ally-671">
+                <div class="row align-items-center" ally-id="ally-672">
+                    <div class="col-12 col-lg-5 d-lg-block  mb-3 mb-md-0 order-1 order-lg-0" ally-id="ally-673">
+                        <div class="copyrights" ally-id="ally-674">
+                            <span ally-id="ally-675">جميع الحقوق محفوظة لوزارة البيئة والمياه والزراعة, وكالة الوزارة لتقنية المعلومات والتحول الرقمي</span>
+                        </div>
+                        <div class="d-flex flex-row flex-wrap links" ally-id="ally-676">
+                            <a class="link-item" href="/pages/privacypolicy" ally-id="ally-677">سياسة الخصوصية</a>
+                            <a class="link-item" href="/pages/termpolicy" ally-id="ally-678">سياسة الاستخدام </a>
+                            <a class="link-item" href="/pages/servicelevelagreement" ally-id="ally-679">إتفاقية مستوى الخدمة </a>
+                            <a class="link-item" href="/pages/disclaimerpolicy" ally-id="ally-680">سياسة إخلاء المسؤولية </a>
+                            <a class="link-item" href="/pages/portalsecurity" ally-id="ally-681">أمان المنصة </a>
+                            <a class="link-item" href="/pages/rightstoinformation" ally-id="ally-682">​حق الحصول على المعلومات </a>
+                            <a class="link-item" href="/pages/sitemap" ally-id="ally-683">خريطة الموقع </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center gap-3 mb-4 mb-lg-0 order-1 order-lg-1" ally-id="ally-684">
+                        <img src="/assets/images/cert_wsis.png" alt="WSIS Certificate" class="img-fluid logo-placeholder" ally-id="ally-685">
+                        <img src="/assets/images/techcertificate.png" alt="Tech Certificate" class="img-fluid logo-placeholder" ally-id="ally-686">
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex logo-placeholders order-0 order-lg-2 mb-4 mb-lg-0" ally-id="ally-687">
+                        <img src="/assets/images/Nama-Logo.svg" alt="Logo Placeholder" class="img-fluid logo-placeholder nama-logo" ally-id="ally-688">
+                        <img src="/assets/images/Mewa-Logo.svg" alt="Logo Placeholder" class="img-fluid logo-placeholder" ally-id="ally-689">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+    <!--start confirm-modal-->
+    <div class="modal fade service-popup-modal br-yellow" tabindex="-1" id="confirm-modal" ally-id="ally-690">
+        <div class="modal-dialog modal-dialog-centered" ally-id="ally-691">
+            <div class="modal-content" ally-id="ally-692">
+                <div class="modal-header" ally-id="ally-693">
+                    <h5 class="modal-title" ally-id="ally-694">
+                        <i class="hgi-stroke hgi-information-circle title-icon" ally-id="ally-695"></i>
+                        <span id="confirm-title" ally-id="ally-696">
+                            رسالة تأكيد
+                        </span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ally-id="ally-697"></button>
+                </div>
+                <div class="modal-body" ally-id="ally-698">
+                    <p class="message-text" id="confirm-content" ally-id="ally-699">
+                        هل أنت متأكد من اتخذا هذا الإجراء؟
+                    </p>
+                </div>
+                <div class="modal-footer" ally-id="ally-700">
+                    <button type="button" class="btn btn-outline-light text-black" id="confirm-no" data-bs-dismiss="modal" ally-id="ally-701">لا</button>
+                    <button type="button" class="btn btn-dark btn-outline-light" id="confirm-yes" ally-id="ally-702">نعم</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end confirm-modal-->
+
+    <!--start Delete-confirm-modal-->
+    <div class="modal fade service-popup-modal br-yellow" tabindex="-1" id="confirm-delete-record-modal" ally-id="ally-703">
+        <div class="modal-dialog modal-dialog-centered" ally-id="ally-704">
+            <div class="modal-content" ally-id="ally-705">
+                <div class="modal-header" ally-id="ally-706">
+                    <h5 class="modal-title" ally-id="ally-707">
+                        <i class="hgi-stroke hgi-delete-row title-icon" ally-id="ally-708"></i>
+                        <span id="delete-confirm-title" ally-id="ally-709">
+                            رسالة تأكيد
+                        </span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ally-id="ally-710"></button>
+                </div>
+                <div class="modal-body" ally-id="ally-711">
+                    <p class="message-text" id="delete-confirm-content" ally-id="ally-712">
+                        هل أنت متأكد من اتخذا هذا الإجراء؟
+                    </p>
+                </div>
+                <div class="modal-footer" ally-id="ally-713">
+                    <button type="button" class="btn btn-outline-light text-black" id="delete-confirm-no" data-bs-dismiss="modal" ally-id="ally-714">لا</button>
+                    <button type="button" class="btn btn-dark btn-outline-light" id="delete-confirm-yes" ally-id="ally-715">نعم</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end confirm-modal-->
+    <!--start error-modal-->
+    <div class="modal fade service-popup-modal br-yellow" tabindex="-1" id="error-modal" ally-id="ally-716">
+        <div class="modal-dialog modal-dialog-centered" ally-id="ally-717">
+            <div class="modal-content" ally-id="ally-718">
+                <div class="modal-header" ally-id="ally-719">
+                    <h5 class="modal-title" ally-id="ally-720">
+                        <i class="hgi-stroke hgi-information-circle title-icon" ally-id="ally-721"></i>
+                        <span id="errorTitle" ally-id="ally-722"></span>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ally-id="ally-723"></button>
+                </div>
+                <div class="modal-body" ally-id="ally-724">
+                    <p class="message-text" id="errorContent" ally-id="ally-725"></p>
+                </div>
+                <div class="modal-footer" ally-id="ally-726">
+                    <button type="button" class="btn btn-outline-light text-black" data-bs-dismiss="modal" ally-id="ally-727">حسناً</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end error-modal-->
+    <!--start change account-->
+    <!--end change account-->
+
+    <!--start read speaker-->
+        <div class="read-speker" title="ReadSpeaker إستمع إلى هذه الصفحةِ مستخدماً" style="
+                position: fixed; bottom: 234px; left: 5px; background-color: #63be6a;
+                padding: 10px; z-index: 999; border-radius: 5px; width: 50px; height: 50px;" ally-id="ally-728">
+            <a href="javascript:;" id="readspeker" ally-id="ally-729">
+                <img style="filter: invert(1) brightness(5); width: 24px; margin: 6px auto 0" src="/assets/images/Sound-level.svg" alt="ReadSpeaker إستمع إلى هذه الصفحةِ مستخدماً" ally-id="ally-730">
+            </a>
+            <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve" style="position: absolute;left: 54px;
+                    top: 10px; min-width: 254px; display:none;" ally-id="ally-731">
+                <a rel="nofollow" class="rsbtn_play" accesskey="L" href="https://app-as.readspeaker.com/cgi-bin/rsent?customerid=14310&amp;amp;lang=ar_ar&amp;amp;readclass=rs_naama&amp;amp;url=" ally-id="ally-732">
+                    <span class="rsbtn_left rsimg rspart" ally-id="ally-733">
+                        <span class="rsbtn_text" ally-id="ally-734">
+                            <span ally-id="ally-735">إستمع</span>
+                        </span>
+                    </span>
+                    <span class="rsbtn_right rsimg rsplay rspart" ally-id="ally-736"></span>
+                </a>
+            </div>
+        </div>
+    <!--end read speaker-->
+    <!--start Cookies banner-->
+        <div class="cookies-banner hide animate__animated animate__fadeInUp" id="divCookiesNaama" role="alert" aria-live="polite" aria-describedby="cookie-message" ally-id="ally-737">
+
+            <div class="container" ally-id="ally-738">
+                <div class="row align-items-center" ally-id="ally-739">
+                    <div class="col col-12 col-lg-9" ally-id="ally-740">
+                        <p class="cookies-text" id="cookie-message" ally-id="ally-741">
+                            من خلال النقر على قبول جميع ملفات جمع البيانات "كوكيز"، فإنك توافق على تخزين ملفات جمع البيانات للطرف الأول على جهازك لتسهيل تصفحك للموقع وتحليل استخدام الموقع.
+                        </p>
+                    </div>
+                    <div class="col col-12 col-lg-3 d-flex flex-wrap mt-3 mt-lg-0 justify-content-center justify-content-lg-end cookies-actions" ally-id="ally-742">
+                        <a id="btnAcceptCookies" class="btn accept-cookies rounded-pill" href="/home/acceptcookies" ally-id="ally-743">موافقة</a>
+                        <a class="btn manage-cookies rounded-pill" href="/pages/privacypolicy" ally-id="ally-744">اتفاقية ملفات تعريف الارتباط</a>
+                        <button class="btn close-banner rounded-pill" id="close-cookies" aria-label="close cookies" ally-id="ally-745">
+                            <i class="fa-solid fa-xmark" ally-id="ally-746"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--end Cookies banner-->
+    <!--start scripts -->
+    <script src="/assets/js/naama.common.min.js?v=pOH5Cu26nZUy5X2Tu7HbZtkp1W4SuYy144NeYriQMcM" ally-id="ally-747"></script>
+    <script src="/assets/js/naama.extention.js?v=gZA_T7qEY9mzV5SseuhK0o2FJCM1f_yn3rwlPluQZTY" ally-id="ally-748"></script>
+    <script src="/assets/js/plugins/jquery-ui.min.js" ally-id="ally-749"></script>
+    <script src="/assets/js/main.js?v=QPcIFcjowjsYexr0BpJxENqQEXQBPeiR_HSvjhLM66I" ally-id="ally-750"></script>
+
+    <script type="text/javascript" ally-id="ally-751">
+        const isArabic = $('html').attr('lang') != 'en';
+        const relativepath = '/assets';
+        const header = document.querySelector(".header-sticky");
+        const toggleClass = "is-sticky";
+        let lastScroll = 0;
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 1) {
+                header.classList.add(toggleClass);
+
+            } else {
+                header.classList.remove(toggleClass);
+            }
+            lastScroll = currentScroll;
+        });
+
+        let defaultErrorMessage = 'error,تنبيه ,يرجي تعبئة الحقول الإلزامية لاستكمال بيانات الطلب';
+        naama._documentReady();
+        $(document).ready(function () {
+            if ('False' === 'True') {
+                naama._showChangeAccount();
+                naama._togglFavourites();
+                naama._showNotifications();
+                naama._showLogoutCofirm();
+            }
+            naama._acceptCookies();
+            ViewMsg();
+
+            // service search
+            ajaxRequest('Get', '/services/getservicesearch').done(function (availableTags) {
+                var NoResultsLabel = "\u0639\u0630\u0631\u0627\u064B\u060C \u0644\u0645 \u062A\u0638\u0647\u0631 \u0623\u064A \u0646\u062A\u0627\u0626\u062C \u0645\u0637\u0627\u0628\u0642\u0629 \u0644\u0637\u0644\u0628\u0643.";
+                $(".txtServiceSearchFilter").autocomplete({
+                    source: function (request, response) {
+                        const filterResults = availableTags.filter(element => {
+                            try {
+                                if(isArabic){
+                                return ~element.desc.toLowerCase().indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('ا', 'أ').indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('أ', 'ا').indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('ا', 'إ').indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('إ', 'ا').indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('ة', 'ه').indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().replace('ه', 'ة').indexOf(request.term.toLowerCase());
+                                }
+                                else{
+                                return ~element.desc.toLowerCase().indexOf(request.term.toLowerCase()) ||
+                                       ~element.value.toLowerCase().indexOf(request.term.toLowerCase());
+                                }
+                            }
+                            catch(err) {
+                            }
+                        });
+                        var results = $.ui.autocomplete.filter(filterResults, '');
+                        if (!results.length) {
+                            results = [NoResultsLabel];
+                        }
+                        response(results);
+                    },
+                    open: function () {
+                        // Get the input field width
+                        const inputWidth = $(this).outerWidth();
+
+                        // Set the width of the menu to match the input
+                        $(".ui-autocomplete").css({
+                            width: inputWidth + "px",
+                        });
+                    },
+                    select: function (event, ui) {
+                        if (ui.item.label === NoResultsLabel) {
+                            event.preventDefault();
+                        }
+                        else if (this.className.toLowerCase().indexOf("txtservicesearchfilter") >= 0) {
+                            window.location.href = '/services/details?id=' + ui.item.id;
+                        }
+                    },
+                    focus: function (event, ui) {
+                        if (ui.item.label === NoResultsLabel) {
+                            event.preventDefault();
+                        }
+                    }
+                });
+            });
+
+            // top services
+            ajaxRequest("GET", '/home/gettopservices?lang=' + $('#mrlanghf').val(), null, 'html').done(function (html) {
+                $("#topServices").html(html);
+            });
+        });
+        $.ui.autocomplete.prototype._resizeMenu = function () {
+            this.menu.element.outerWidth(this.element.outerWidth());
+        };
+
+        // session finish modal, toggle favourites
+        if ('False' === 'True') {
+            let timeoutId = 10 * 60;
+            $(document).on('mousemove keydown', function () {
+                if ($("#sessionModal").hasClass('show') != true) {
+                    timeoutId = 10 * 60;
+                }
+            });
+            var sessionTimeOut = setInterval(function () {
+                timeoutId--;
+                if (timeoutId == 0) {
+                    clearInterval(sessionTimeOut);
+                    ajaxRequest('POST', '/account/logout').done(function () {
+                        $('#showTimer').html("");
+                        window.location.href = '/';
+                    });
+                }
+                else if (timeoutId <= 60) {
+                    $("#sessionModal").modal('show');
+                    $('#showTimer').html("00:" + timeoutId.toLocaleString('en-US', {
+                        minimumIntegerDigits: 2,
+                        useGrouping: false
+                    }));
+                }
+                else {
+                    $('#showTimer').html("");
+                    $("#sessionModal").modal('hide');
+                }
+            }, 1000);
+
+            $('#btnExtendingSession').click(function () {
+                location.reload();
+            });
+        }
+    </script>
+    <script src="/assets/js/localization.min.js?v=QoBNUa4jZx9S5jpOqYI47Uo2ZG5xIpQ7q0qvW19Z-3o" ally-id="ally-752"></script>
+
+    
+	<script src="/assets/js/plugins/swiper-bundle.min.js" ally-id="ally-753"></script>
+	<script src="/assets/js/pages/home.min.js?v=dXAF-QHp21HoImGAxZXOO5ACCJ7DteqYJOLvKifQ16Y" ally-id="ally-754"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-130205552-1" ally-id="ally-755"></script>
+	<script type="text/javascript" ally-id="ally-756">
+		$(document).ready(function () {
+			viewbeneficiaries(63);
+		});
+	</script>
+
+    <!--end scripts -->
+
+
+
+
+
+</body><!--end body--></html><!--end html-->
