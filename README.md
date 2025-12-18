@@ -105,10 +105,13 @@ The test data includes samples from various sectors:
 
 ```bash
 # Clone the repository
-git clone https://github.com/harshit-chaudhary07/public.git
+git clone <repository-url>
+
+# Navigate to the repository directory
+cd <repository-name>
 
 # Navigate to specific testbed
-cd public/alt_text_testbed
+cd alt_text_testbed
 
 # View HTML files or process data programmatically
 ```
