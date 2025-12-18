@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Viewer</title>
+    <meta http-equiv="refresh" content="3">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 { color: #333; margin-bottom: 10px; }
+        .stats { 
+            color: #666; 
+            font-size: 14px;
+        }
+        .progress {
+            background: #4caf50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .loading {
+            color: #ff9800;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .info-row {
+            display: flex;
+            gap: 10px;
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        .info-label {
+            font-weight: 600;
+            color: #666;
+            min-width: 80px;
+        }
+        .info-value {
+            color: #333;
+            word-break: break-all;
+        }
+        .url-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .url-link:hover { text-decoration: underline; }
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .image-container {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #fafafa;
+        }
+        .image-label {
+            background: #f0f0f0;
+            padding: 8px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .badge {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>📸 Screenshot Viewer</h1>
+            <div class="stats">Items Processed: 35/40</div>
+            <div class="loading">⏳ Auto-refreshing every 3 seconds...</div>
+        </div>
+        <div class="progress">35/40</div>
+    </div>
+    
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #96</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(11)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="96_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="96_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #97</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(10)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="97_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="97_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #98</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(9)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="98_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="98_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #99</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(8)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="99_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="99_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #100</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(7)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="100_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="100_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #101</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(6)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="101_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="101_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #102</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(5)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="102_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="102_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #103</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(4)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="103_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="103_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #104</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(2)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="104_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="104_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #105</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.sothys.fr/fr/trouver-point-de-vente" target="_blank" class="url-link">https://www.sothys.fr/fr/trouver-point-de-vente</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.map--cluster.marker-cluster.leaflet-marker-icon:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="105_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="105_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #107</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.floralux.be/nl/" target="_blank" class="url-link">https://www.floralux.be/nl/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>flx-cf-add-to-wishlist-icon[itemid="200299423"] > .m-card__favourite</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="107_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="107_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #109</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://pack.stage.es/?next_results_tab=same&packageId=209&from=app" target="_blank" class="url-link">https://pack.stage.es/?next_results_tab=same&packageId=209&from=app</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>i[jsaction="click:;click:;"]</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="109_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="109_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #110</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://pack.stage.es/?next_results_tab=same&packageId=209&from=app" target="_blank" class="url-link">https://pack.stage.es/?next_results_tab=same&packageId=209&from=app</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.c-search-box__form__group--calendar.c-search-box__form__group[_ngcontent-ng-c3125519055=""]:nth-child(2) > .c-search-box__form__group__icon.far.fa-calendar</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="110_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="110_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #111</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://pack.stage.es/?next_results_tab=same&packageId=209&from=app" target="_blank" class="url-link">https://pack.stage.es/?next_results_tab=same&packageId=209&from=app</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.fa-users.c-search-box__form__group__icon.fas</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="111_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="111_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #572</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://college.mayo.edu/" target="_blank" class="url-link">https://college.mayo.edu/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#course-search-form__submit</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="572_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="572_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #573</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.unframed.nl/" target="_blank" class="url-link">https://www.unframed.nl/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.c-hero-intro__arrow</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="573_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="573_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #574</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.barclays.co.uk/branch-finder/" target="_blank" class="url-link">https://www.barclays.co.uk/branch-finder/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.gm-style > div:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="574_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="574_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #575</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://lemaar.com.au/products/door-entry/entrance-sets/almeri-entrance-set-brushed-brass/" target="_blank" class="url-link">https://lemaar.com.au/products/door-entry/entrance-sets/almeri-entrance-set-brushed-brass/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.product-photos > .galleria-container.notouch.galleria-theme-twelve</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="575_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="575_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #577</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.ii.co.uk/shares/aberdeen-group/LSE:ABDN" target="_blank" class="url-link">https://www.ii.co.uk/shares/aberdeen-group/LSE:ABDN</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1g838xc:nth-child(2) > .css-qznp3 > .css-1l4w6pd > .css-149haq1 > .semicircle-gauge > svg[width="290"][height="145.5029296875"] > g[transform="translate(44.2, 28)"] > .doughnut > .subArc</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="577_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="577_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #578</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.ii.co.uk/shares/aberdeen-group/LSE:ABDN" target="_blank" class="url-link">https://www.ii.co.uk/shares/aberdeen-group/LSE:ABDN</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1g838xc:nth-child(1) > .css-qznp3 > .css-1l4w6pd > .css-149haq1 > .semicircle-gauge > svg[width="290"][height="145.5029296875"] > g[transform="translate(44.2, 28)"] > .doughnut > .subArc</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="578_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="578_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #580</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://testrigor.com/" target="_blank" class="url-link">https://testrigor.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#b-4 > .trdc-icon-box.tR-dark-card</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="580_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="580_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #581</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://testrigor.com/" target="_blank" class="url-link">https://testrigor.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#b-3 > .trdc-icon-box.tR-dark-card</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="581_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="581_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #582</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://testrigor.com/" target="_blank" class="url-link">https://testrigor.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#b-2 > .trdc-icon-box.tR-dark-card</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="582_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="582_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #583</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.fitchsolutions.com/about-fitch-solutions" target="_blank" class="url-link">https://www.fitchsolutions.com/about-fitch-solutions</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.theme-toggle</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="583_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="583_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #584</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.gourmetsociety.co.uk/search.php?country=uk" target="_blank" class="url-link">https://www.gourmetsociety.co.uk/search.php?country=uk</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.gm-style > div:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="584_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="584_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #585</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://mittforetag2.ingress1-exp-prd-1.aws1.telenor.se/foretag/sakerhet/safezone/rapporter/" target="_blank" class="url-link">https://mittforetag2.ingress1-exp-prd-1.aws1.telenor.se/foretag/sakerhet/safezone/rapporter/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>canvas</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="585_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="585_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #586</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://sjednat.generaliceska.cz/pojisteni-vozidel/uvod/" target="_blank" class="url-link">https://sjednat.generaliceska.cz/pojisteni-vozidel/uvod/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1vtkkd2 > svg[width="371"][height="59"][viewBox="0 0 371 59"]</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="586_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="586_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #587</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.formundzeichen.at/markenentwicklung/" target="_blank" class="url-link">https://www.formundzeichen.at/markenentwicklung/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>canvas</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="587_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="587_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #588</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.fma-days.fr/" target="_blank" class="url-link">https://www.fma-days.fr/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.tdi_133</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="588_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="588_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #589</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.fma-days.fr/" target="_blank" class="url-link">https://www.fma-days.fr/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.tdi_107</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="589_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="589_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #590</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.fma-days.fr/" target="_blank" class="url-link">https://www.fma-days.fr/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.tdi_106</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="590_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="590_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #591</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.fma-days.fr/" target="_blank" class="url-link">https://www.fma-days.fr/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.tdi_103</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="591_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="591_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #711</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.airbank.cz/produkty/pujcka/" target="_blank" class="url-link">https://www.airbank.cz/produkty/pujcka/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-jgbszq</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="711_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="711_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #712</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.ultraviolette.com/f77" target="_blank" class="url-link">https://www.ultraviolette.com/f77</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.w-\[40px\].h-1.sm\:h-\[5px\]:nth-child(2)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="712_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="712_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #713</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.ultraviolette.com/f77" target="_blank" class="url-link">https://www.ultraviolette.com/f77</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.w-\[40px\].h-1.sm\:h-\[5px\]:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="713_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="713_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
