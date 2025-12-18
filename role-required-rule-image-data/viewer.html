@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Viewer</title>
+    <meta http-equiv="refresh" content="3">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 { color: #333; margin-bottom: 10px; }
+        .stats { 
+            color: #666; 
+            font-size: 14px;
+        }
+        .progress {
+            background: #4caf50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .loading {
+            color: #ff9800;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .info-row {
+            display: flex;
+            gap: 10px;
+            margin: 5px 0;
+            font-size: 13px;
+        }
+        .info-label {
+            font-weight: 600;
+            color: #666;
+            min-width: 80px;
+        }
+        .info-value {
+            color: #333;
+            word-break: break-all;
+        }
+        .url-link {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .url-link:hover { text-decoration: underline; }
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .image-container {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            background: #fafafa;
+        }
+        .image-label {
+            background: #f0f0f0;
+            padding: 8px 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .badge {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>📸 Screenshot Viewer</h1>
+            <div class="stats">Items Processed: 39/56</div>
+            <div class="loading">⏳ Auto-refreshing every 3 seconds...</div>
+        </div>
+        <div class="progress">39/56</div>
+    </div>
+    
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #2</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://footballfoundation.org.uk/where-to-play" target="_blank" class="url-link">https://footballfoundation.org.uk/where-to-play</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.footer__copyright > p</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="2_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="2_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #3</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://dev-your-washington.pantheonsite.io/" target="_blank" class="url-link">https://dev-your-washington.pantheonsite.io/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.icon-pause</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="3_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="3_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #4</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://dev-your-washington.pantheonsite.io/" target="_blank" class="url-link">https://dev-your-washington.pantheonsite.io/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.top-head > .search</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="4_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="4_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #13</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://assist.kohler.com/en/bathroom-faucets/Remove-the-Handles-for-the-Revival-Faucet" target="_blank" class="url-link">https://assist.kohler.com/en/bathroom-faucets/Remove-the-Handles-for-the-Revival-Faucet</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-8n4loo.css-11tmjw1:nth-child(3)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="13_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="13_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #14</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://assist.kohler.com/en/bathroom-faucets/Remove-the-Handles-for-the-Revival-Faucet" target="_blank" class="url-link">https://assist.kohler.com/en/bathroom-faucets/Remove-the-Handles-for-the-Revival-Faucet</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-8n4loo.css-11tmjw1:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="14_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="14_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #16</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://calendly.com/features/admin-management" target="_blank" class="url-link">https://calendly.com/features/admin-management</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>div[data-testid="single-column-hero-badge"]</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="16_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="16_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #17</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://calendly.com/features/admin-management" target="_blank" class="url-link">https://calendly.com/features/admin-management</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>div[data-testid="badge-we’re hiring!"]</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="17_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="17_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #19</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://asana.com/" target="_blank" class="url-link">https://asana.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1rd7hco.e1ywq6bu0:nth-child(4)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="19_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="19_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #20</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://asana.com/" target="_blank" class="url-link">https://asana.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1rd7hco.e1ywq6bu0:nth-child(3)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="20_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="20_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #21</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://asana.com/" target="_blank" class="url-link">https://asana.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-1rd7hco.e1ywq6bu0:nth-child(2)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="21_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="21_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #22</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://asana.com/" target="_blank" class="url-link">https://asana.com/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.css-16n3d5y</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="22_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="22_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #39</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-f33f787182</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="39_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="39_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #41</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-90155e0c5c</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="41_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="41_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #42</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-5a29e69e97</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="42_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="42_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #43</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-150a6eadfb</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="43_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="43_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #44</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-856a922870</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="44_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="44_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #45</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html" target="_blank" class="url-link">https://discover-overtur.allegion.com/en/solutions/by-role/security-consultant-solutions.html</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#text-fce76acfc2</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="45_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="45_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #60</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://careers.semrush.com/offices/amsterdam/" target="_blank" class="url-link">https://careers.semrush.com/offices/amsterdam/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.PrivacyInfo__SemrushInfo-sc-5j8zi4-3</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="60_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="60_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #97</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://einvest.sagicorjamaica.com/home" target="_blank" class="url-link">https://einvest.sagicorjamaica.com/home</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>div[role="region"] > .overflow-hidden</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="97_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="97_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #194</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>#hamburger-1</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="194_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="194_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #195</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.btn-fake</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="195_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="195_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #196</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.ticket.d-lg-flex.d-none > .ticket-right > .ticket-search</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="196_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="196_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #197</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.vehicles.ticket-item</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="197_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="197_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #198</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.passengers.ticket-item</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="198_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="198_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #199</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.trip</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="199_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="199_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #200</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/" target="_blank" class="url-link">https://blunavytraghetti.com/spiaggia-di-marina-di-campo-come-arrivare-cosa-fare-i-servizi/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.main-language</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="200_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="200_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #201</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://fitchlearning.com/course/private-credit/private-credit-navigating-the-risk-landscape/" target="_blank" class="url-link">https://fitchlearning.com/course/private-credit/private-credit-navigating-the-risk-landscape/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>th:nth-child(5)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="201_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="201_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #213</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://browserstack.greythr.com/uas/portal/auth/login" target="_blank" class="url-link">https://browserstack.greythr.com/uas/portal/auth/login</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.mr-5</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="213_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="213_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #214</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://browserstack.greythr.com/uas/portal/auth/login" target="_blank" class="url-link">https://browserstack.greythr.com/uas/portal/auth/login</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.mr-7.w-55.h-30:nth-child(2)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="214_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="214_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #215</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://browserstack.greythr.com/uas/portal/auth/login" target="_blank" class="url-link">https://browserstack.greythr.com/uas/portal/auth/login</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.mr-7.w-55.h-30:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="215_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="215_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #216</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.hover\:cursor-pointer</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="216_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="216_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #217</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>a:nth-child(6)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="217_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="217_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #218</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>a:nth-child(5)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="218_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="218_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #219</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>a:nth-child(4)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="219_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="219_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #220</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>svg[viewBox="0 0 1120 986"] > a:nth-child(3)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="220_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="220_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #221</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>svg[viewBox="0 0 1120 986"] > a:nth-child(2)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="221_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="221_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #222</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://follow.it/" target="_blank" class="url-link">https://follow.it/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>svg[viewBox="0 0 1120 986"] > a:nth-child(1)</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="222_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="222_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #1751</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.dynacoat.com.cy/en/products/thinners/thinner-slow" target="_blank" class="url-link">https://www.dynacoat.com.cy/en/products/thinners/thinner-slow</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>.collapsible-content-title</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="1751_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="1751_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Item #1931</div>
+                <div class="info-row">
+                    <span class="info-label">Assignee:</span>
+                    <span class="badge">Harshit</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">URL:</span>
+                    <span class="info-value"><a href="https://www.tvojedarky.cz/" target="_blank" class="url-link">https://www.tvojedarky.cz/</a></span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Selector:</span>
+                    <span class="info-value"><code>footer > .item:nth-child(1) > .title</code></span>
+                </div>
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <div class="image-label">🖼️ Viewport (Context)</div>
+                    <img src="1931_viewport.png" alt="Viewport screenshot">
+                </div>
+                <div class="image-container">
+                    <div class="image-label">🎯 Element Only</div>
+                    <img src="1931_context.png" alt="Element screenshot">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
