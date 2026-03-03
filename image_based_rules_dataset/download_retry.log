@@ -1,0 +1,710 @@
+2026-03-03 14:54:17 | INFO | Downloader started
+2026-03-03 15:07:51 | INFO | Downloader started
+2026-03-03 15:07:56 | INFO | No pending downloads | skipped_existing=47 skipped_duplicates=0
+2026-03-03 15:09:59 | INFO | Downloader started
+2026-03-03 15:10:04 | INFO | Config | input=images/missing_retry_input.csv output_dir=images manifest=images/download_manifest_retry.csv workers=4 retries=10 timeout=40 backoff_base=1.20 backoff_cap=12.00 skip_existing=True adaptive_throttle=True pre_skipped_existing=0 pre_skipped_duplicates=0
+2026-03-03 15:10:04 | WARNING | Request exception, retrying attempt 2/10 in 1.24s | error=HTTPSConnectionPool(host='browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10550d950>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')) | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:04 | WARNING | Request exception, retrying attempt 2/10 in 1.42s | error=HTTPSConnectionPool(host='browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com', port=443): Max retries exceeded with url: /dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1054e5a90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')) | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:05 | WARNING | Adaptive throttle increased: penalty=0.50s retry_after=none next_allowed_in=0.58s
+2026-03-03 15:10:05 | WARNING | HTTP 403, retrying attempt 2/10 in 1.21s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08160bc2-d7c0-4283-abce-2e289e9abe3f-10669835/3f2163cc-e613-45da-a550-3bc4304161db
+2026-03-03 15:10:05 | WARNING | Adaptive throttle increased: penalty=0.85s retry_after=none next_allowed_in=0.81s
+2026-03-03 15:10:05 | WARNING | HTTP 403, retrying attempt 2/10 in 1.22s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:07 | WARNING | Adaptive throttle increased: penalty=1.44s retry_after=none next_allowed_in=1.78s
+2026-03-03 15:10:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.51s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:07 | WARNING | Adaptive throttle increased: penalty=2.46s retry_after=none next_allowed_in=2.03s
+2026-03-03 15:10:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:07 | WARNING | Adaptive throttle increased: penalty=4.18s retry_after=none next_allowed_in=1.93s
+2026-03-03 15:10:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:07 | WARNING | Adaptive throttle increased: penalty=7.10s retry_after=none next_allowed_in=2.17s
+2026-03-03 15:10:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.91s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08160bc2-d7c0-4283-abce-2e289e9abe3f-10669835/3f2163cc-e613-45da-a550-3bc4304161db
+2026-03-03 15:10:11 | WARNING | Adaptive throttle increased: penalty=12.07s retry_after=none next_allowed_in=12.85s
+2026-03-03 15:10:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.06s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:11 | WARNING | Adaptive throttle increased: penalty=20.52s retry_after=none next_allowed_in=13.10s
+2026-03-03 15:10:11 | WARNING | HTTP 403, retrying attempt 4/10 in 4.90s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=12.64s
+2026-03-03 15:10:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=12.86s
+2026-03-03 15:10:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.44s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08160bc2-d7c0-4283-abce-2e289e9abe3f-10669835/3f2163cc-e613-45da-a550-3bc4304161db
+2026-03-03 15:10:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.47s
+2026-03-03 15:10:25 | WARNING | HTTP 403, retrying attempt 5/10 in 9.87s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08160bc2-d7c0-4283-abce-2e289e9abe3f-10669835/3f2163cc-e613-45da-a550-3bc4304161db
+2026-03-03 15:10:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.25s
+2026-03-03 15:10:25 | WARNING | HTTP 403, retrying attempt 5/10 in 10.45s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.12s
+2026-03-03 15:10:25 | WARNING | HTTP 403, retrying attempt 5/10 in 9.64s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:10:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.18s
+2026-03-03 15:10:26 | WARNING | HTTP 403, retrying attempt 5/10 in 10.01s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/bb76a039-7bd4-4895-bc0b-0b33e19d88de-10669835/456e93d2-250c-4345-8d35-ccb0be1da20d
+2026-03-03 15:11:20 | INFO | Downloader started
+2026-03-03 15:11:24 | INFO | Config | input=images/missing_retry_input.csv output_dir=images manifest=images/download_manifest_retry.csv workers=4 retries=10 timeout=40 backoff_base=1.20 backoff_cap=12.00 skip_existing=True adaptive_throttle=True pre_skipped_existing=0 pre_skipped_duplicates=0
+2026-03-03 15:11:24 | INFO | Applied 1 custom headers: User-Agent
+2026-03-03 15:12:12 | INFO | Progress 25/47 | downloaded=25 downloaded_progress=25/47 skipped=0 failed=0 rate=0.52 items/s
+2026-03-03 15:13:14 | INFO | Progress 47/47 | downloaded=47 downloaded_progress=47/47 skipped=0 failed=0 rate=0.43 items/s
+2026-03-03 15:13:14 | INFO | Finished | elapsed=109.2s downloaded=47 skipped=0 failed=0 manifest=images/download_manifest_retry.csv output_dir=images log_file=images/download_retry.log
+2026-03-03 15:21:01 | INFO | Config | input=Violations/image-based-rules.csv output_dir=images manifest=images/download_manifest_retry.csv workers=4 retries=10 timeout=40 backoff_base=1.20 backoff_cap=12.00 skip_existing=True adaptive_throttle=True pre_skipped_existing=21406 pre_skipped_duplicates=2414
+2026-03-03 15:21:03 | WARNING | Adaptive throttle increased: penalty=0.50s retry_after=none next_allowed_in=0.51s
+2026-03-03 15:21:03 | WARNING | HTTP 403, retrying attempt 2/10 in 1.26s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:21:03 | WARNING | Adaptive throttle increased: penalty=0.85s retry_after=none next_allowed_in=0.73s
+2026-03-03 15:21:03 | WARNING | HTTP 403, retrying attempt 2/10 in 1.52s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:21:03 | WARNING | Adaptive throttle increased: penalty=1.44s retry_after=none next_allowed_in=0.98s
+2026-03-03 15:21:03 | WARNING | HTTP 403, retrying attempt 2/10 in 1.26s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:03 | WARNING | Adaptive throttle increased: penalty=2.46s retry_after=none next_allowed_in=1.23s
+2026-03-03 15:21:03 | WARNING | HTTP 403, retrying attempt 2/10 in 1.33s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:05 | WARNING | Adaptive throttle increased: penalty=4.18s retry_after=none next_allowed_in=4.36s
+2026-03-03 15:21:05 | WARNING | HTTP 403, retrying attempt 3/10 in 2.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:21:05 | WARNING | Adaptive throttle increased: penalty=7.10s retry_after=none next_allowed_in=4.58s
+2026-03-03 15:21:05 | WARNING | HTTP 403, retrying attempt 3/10 in 2.75s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:05 | WARNING | Adaptive throttle increased: penalty=12.07s retry_after=none next_allowed_in=4.70s
+2026-03-03 15:21:05 | WARNING | HTTP 403, retrying attempt 3/10 in 2.74s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:05 | WARNING | Adaptive throttle increased: penalty=20.52s retry_after=none next_allowed_in=4.78s
+2026-03-03 15:21:05 | WARNING | HTTP 403, retrying attempt 3/10 in 2.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:21:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.21s
+2026-03-03 15:21:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.29s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:21:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.46s
+2026-03-03 15:21:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.28s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:21:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:21:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.06s
+2026-03-03 15:21:11 | WARNING | HTTP 403, retrying attempt 4/10 in 5.00s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.93s
+2026-03-03 15:21:39 | WARNING | HTTP 403, retrying attempt 5/10 in 10.34s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:21:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.20s
+2026-03-03 15:21:39 | WARNING | HTTP 403, retrying attempt 5/10 in 10.20s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:21:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:21:39 | WARNING | HTTP 403, retrying attempt 5/10 in 10.59s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:21:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.04s
+2026-03-03 15:21:39 | WARNING | HTTP 403, retrying attempt 5/10 in 9.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:22:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.99s
+2026-03-03 15:22:11 | WARNING | HTTP 403, retrying attempt 6/10 in 12.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:22:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.75s
+2026-03-03 15:22:11 | WARNING | HTTP 403, retrying attempt 6/10 in 12.78s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:22:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.82s
+2026-03-03 15:22:11 | WARNING | HTTP 403, retrying attempt 6/10 in 12.12s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:22:13 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.16s
+2026-03-03 15:22:13 | WARNING | HTTP 403, retrying attempt 6/10 in 12.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:22:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.52s
+2026-03-03 15:22:38 | WARNING | HTTP 403, retrying attempt 7/10 in 12.83s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:22:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.74s
+2026-03-03 15:22:39 | WARNING | HTTP 403, retrying attempt 7/10 in 12.52s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:22:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.99s
+2026-03-03 15:22:39 | WARNING | HTTP 403, retrying attempt 7/10 in 12.85s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:22:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.05s
+2026-03-03 15:22:39 | WARNING | HTTP 403, retrying attempt 7/10 in 12.70s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:23:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.46s
+2026-03-03 15:23:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.26s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:23:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.70s
+2026-03-03 15:23:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.61s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:23:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.63s
+2026-03-03 15:23:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.96s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:23:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.64s
+2026-03-03 15:23:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.83s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:23:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:23:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.00s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:23:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.60s
+2026-03-03 15:23:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.43s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:23:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.84s
+2026-03-03 15:23:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:23:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.85s
+2026-03-03 15:23:36 | WARNING | HTTP 403, retrying attempt 9/10 in 12.23s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:24:00 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.69s
+2026-03-03 15:24:00 | WARNING | HTTP 403, retrying attempt 10/10 in 12.26s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:24:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.15s
+2026-03-03 15:24:01 | WARNING | HTTP 403, retrying attempt 10/10 in 12.66s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:24:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.40s
+2026-03-03 15:24:01 | WARNING | HTTP 403, retrying attempt 10/10 in 12.72s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:24:03 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.70s
+2026-03-03 15:24:03 | WARNING | HTTP 403, retrying attempt 10/10 in 12.97s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:24:33 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:24:33 | ERROR | [10706] failed context: 4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835_8 (http_403)
+2026-03-03 15:24:34 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.91s
+2026-03-03 15:24:34 | WARNING | HTTP 403, retrying attempt 2/10 in 1.39s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:24:39 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835/46111abc-8e63-4484-8c85-156bd0d73c1d
+2026-03-03 15:24:39 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/86c78734-6e8e-4633-aabb-4f11f1419037
+2026-03-03 15:24:39 | ERROR | [10707] failed context: 4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835_10 (http_403)
+2026-03-03 15:24:39 | ERROR | [10707] failed base: 4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835_10 (http_403)
+2026-03-03 15:24:39 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_abeffcaa-5e8b-4abc-b398-32f9375e59d2/97513d59-60dd-48cd-a85c-dc80cd6f0a05
+2026-03-03 15:24:39 | ERROR | [10706] failed base: 4bd3bafb-3705-4006-9d9d-74b1535a1986-10669835_8 (http_403)
+2026-03-03 15:25:06 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.16s
+2026-03-03 15:25:06 | WARNING | HTTP 403, retrying attempt 2/10 in 1.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:25:06 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:25:06 | WARNING | HTTP 403, retrying attempt 2/10 in 1.44s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:25:06 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.59s
+2026-03-03 15:25:06 | WARNING | HTTP 403, retrying attempt 3/10 in 2.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:25:06 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.47s
+2026-03-03 15:25:06 | WARNING | HTTP 403, retrying attempt 2/10 in 1.53s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:25:33 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.03s
+2026-03-03 15:25:33 | WARNING | HTTP 403, retrying attempt 3/10 in 2.59s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:25:33 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.27s
+2026-03-03 15:25:33 | WARNING | HTTP 403, retrying attempt 3/10 in 2.87s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:25:33 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.09s
+2026-03-03 15:25:33 | WARNING | HTTP 403, retrying attempt 4/10 in 4.88s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:25:33 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.31s
+2026-03-03 15:25:33 | WARNING | HTTP 403, retrying attempt 3/10 in 2.43s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:25:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:25:59 | WARNING | HTTP 403, retrying attempt 5/10 in 9.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:25:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.64s
+2026-03-03 15:25:59 | WARNING | HTTP 403, retrying attempt 4/10 in 4.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:25:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.35s
+2026-03-03 15:25:59 | WARNING | HTTP 403, retrying attempt 4/10 in 5.65s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:25:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:25:59 | WARNING | HTTP 403, retrying attempt 4/10 in 5.65s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:26:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.76s
+2026-03-03 15:26:26 | WARNING | HTTP 403, retrying attempt 5/10 in 10.06s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:26:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.57s
+2026-03-03 15:26:27 | WARNING | HTTP 403, retrying attempt 5/10 in 10.22s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:26:28 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.32s
+2026-03-03 15:26:28 | WARNING | HTTP 403, retrying attempt 5/10 in 9.96s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:26:31 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.66s
+2026-03-03 15:26:31 | WARNING | HTTP 403, retrying attempt 6/10 in 12.09s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:26:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.52s
+2026-03-03 15:26:55 | WARNING | HTTP 403, retrying attempt 6/10 in 12.91s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:26:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.28s
+2026-03-03 15:26:55 | WARNING | HTTP 403, retrying attempt 7/10 in 12.74s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:26:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.53s
+2026-03-03 15:26:55 | WARNING | HTTP 403, retrying attempt 6/10 in 12.69s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:26:56 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.83s
+2026-03-03 15:26:56 | WARNING | HTTP 403, retrying attempt 6/10 in 12.98s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:27:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:27:22 | WARNING | HTTP 403, retrying attempt 8/10 in 12.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:27:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.50s
+2026-03-03 15:27:22 | WARNING | HTTP 403, retrying attempt 7/10 in 12.59s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:27:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.63s
+2026-03-03 15:27:22 | WARNING | HTTP 403, retrying attempt 7/10 in 12.64s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:27:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.35s
+2026-03-03 15:27:22 | WARNING | HTTP 403, retrying attempt 7/10 in 12.11s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:27:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.61s
+2026-03-03 15:27:49 | WARNING | HTTP 403, retrying attempt 8/10 in 12.47s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:27:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:27:49 | WARNING | HTTP 403, retrying attempt 8/10 in 12.12s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:27:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.40s
+2026-03-03 15:27:49 | WARNING | HTTP 403, retrying attempt 9/10 in 12.82s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:27:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.39s
+2026-03-03 15:27:49 | WARNING | HTTP 403, retrying attempt 8/10 in 12.16s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:28:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.53s
+2026-03-03 15:28:16 | WARNING | HTTP 403, retrying attempt 9/10 in 12.81s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:28:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.03s
+2026-03-03 15:28:20 | WARNING | HTTP 403, retrying attempt 9/10 in 12.93s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:28:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.28s
+2026-03-03 15:28:20 | WARNING | HTTP 403, retrying attempt 10/10 in 12.19s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:28:21 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.29s
+2026-03-03 15:28:21 | WARNING | HTTP 403, retrying attempt 9/10 in 12.60s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:28:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.89s
+2026-03-03 15:28:43 | WARNING | HTTP 403, retrying attempt 10/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:28:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.02s
+2026-03-03 15:28:43 | WARNING | HTTP 403, retrying attempt 10/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:28:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:28:43 | WARNING | HTTP 403, retrying attempt 10/10 in 12.60s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:28:43 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_55c6afe7-104b-4ac1-a531-e1d4ebeeb314/88c6e0ef-ac1d-4a95-824d-1104ba4ba201
+2026-03-03 15:28:43 | ERROR | [10708] failed base: 08010074-0e6d-40a6-a1e6-a37652251c96-10669835_22 (http_403)
+2026-03-03 15:29:10 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d365d1e4-22bb-4564-bf4f-34700a5c01c6
+2026-03-03 15:29:10 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.84s
+2026-03-03 15:29:10 | WARNING | HTTP 403, retrying attempt 2/10 in 1.28s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:29:10 | ERROR | [10709] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_43 (http_403)
+2026-03-03 15:29:10 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/2b16ec51-d472-4ee3-bc3a-3d5c377889df
+2026-03-03 15:29:10 | ERROR | [10709] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_43 (http_403)
+2026-03-03 15:29:10 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/08010074-0e6d-40a6-a1e6-a37652251c96-10669835/4bb5d718-a8d9-40a7-9e37-f685c12aa707
+2026-03-03 15:29:10 | ERROR | [10708] failed context: 08010074-0e6d-40a6-a1e6-a37652251c96-10669835_22 (http_403)
+2026-03-03 15:29:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.45s
+2026-03-03 15:29:37 | WARNING | HTTP 403, retrying attempt 2/10 in 1.50s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:29:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.65s
+2026-03-03 15:29:37 | WARNING | HTTP 403, retrying attempt 3/10 in 2.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:29:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.80s
+2026-03-03 15:29:37 | WARNING | HTTP 403, retrying attempt 2/10 in 1.26s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:29:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:29:37 | WARNING | HTTP 403, retrying attempt 2/10 in 1.21s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:30:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.62s
+2026-03-03 15:30:04 | WARNING | HTTP 403, retrying attempt 3/10 in 2.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:30:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.85s
+2026-03-03 15:30:04 | WARNING | HTTP 403, retrying attempt 3/10 in 2.95s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:30:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.64s
+2026-03-03 15:30:04 | WARNING | HTTP 403, retrying attempt 4/10 in 5.75s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:30:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.45s
+2026-03-03 15:30:04 | WARNING | HTTP 403, retrying attempt 3/10 in 2.87s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:30:30 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.31s
+2026-03-03 15:30:30 | WARNING | HTTP 403, retrying attempt 5/10 in 10.18s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:30:30 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.23s
+2026-03-03 15:30:30 | WARNING | HTTP 403, retrying attempt 4/10 in 5.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:30:30 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.48s
+2026-03-03 15:30:30 | WARNING | HTTP 403, retrying attempt 4/10 in 5.76s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:30:30 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.70s
+2026-03-03 15:30:30 | WARNING | HTTP 403, retrying attempt 4/10 in 5.17s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:30:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.48s
+2026-03-03 15:30:58 | WARNING | HTTP 403, retrying attempt 5/10 in 10.18s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:30:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.71s
+2026-03-03 15:30:58 | WARNING | HTTP 403, retrying attempt 5/10 in 9.83s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:30:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.35s
+2026-03-03 15:30:58 | WARNING | HTTP 403, retrying attempt 6/10 in 12.28s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:31:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.40s
+2026-03-03 15:31:01 | WARNING | HTTP 403, retrying attempt 5/10 in 10.39s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:31:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.97s
+2026-03-03 15:31:25 | WARNING | HTTP 403, retrying attempt 6/10 in 12.15s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:31:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.45s
+2026-03-03 15:31:25 | WARNING | HTTP 403, retrying attempt 6/10 in 12.11s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:31:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:31:25 | WARNING | HTTP 403, retrying attempt 7/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:31:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.16s
+2026-03-03 15:31:25 | WARNING | HTTP 403, retrying attempt 6/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:31:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.03s
+2026-03-03 15:31:51 | WARNING | HTTP 403, retrying attempt 8/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:31:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.25s
+2026-03-03 15:31:51 | WARNING | HTTP 403, retrying attempt 7/10 in 12.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:31:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.16s
+2026-03-03 15:31:51 | WARNING | HTTP 403, retrying attempt 7/10 in 12.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:31:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.23s
+2026-03-03 15:31:51 | WARNING | HTTP 403, retrying attempt 7/10 in 12.05s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:32:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.41s
+2026-03-03 15:32:17 | WARNING | HTTP 403, retrying attempt 8/10 in 12.04s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:32:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.16s
+2026-03-03 15:32:17 | WARNING | HTTP 403, retrying attempt 8/10 in 12.13s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:32:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.21s
+2026-03-03 15:32:17 | WARNING | HTTP 403, retrying attempt 8/10 in 12.92s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:32:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.43s
+2026-03-03 15:32:17 | WARNING | HTTP 403, retrying attempt 9/10 in 12.32s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:32:44 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.09s
+2026-03-03 15:32:44 | WARNING | HTTP 403, retrying attempt 9/10 in 12.03s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:32:44 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.28s
+2026-03-03 15:32:44 | WARNING | HTTP 403, retrying attempt 10/10 in 12.61s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:32:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=20.66s
+2026-03-03 15:32:49 | WARNING | HTTP 403, retrying attempt 9/10 in 12.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:32:49 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=20.90s
+2026-03-03 15:32:49 | WARNING | HTTP 403, retrying attempt 9/10 in 12.20s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:33:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.46s
+2026-03-03 15:33:11 | WARNING | HTTP 403, retrying attempt 10/10 in 12.44s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:33:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.64s
+2026-03-03 15:33:11 | WARNING | HTTP 403, retrying attempt 10/10 in 12.67s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:33:11 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/d90400b5-d15f-40b1-8794-16a845a958bb
+2026-03-03 15:33:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.14s
+2026-03-03 15:33:11 | WARNING | HTTP 403, retrying attempt 10/10 in 12.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:33:11 | ERROR | [10710] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_21 (http_403)
+2026-03-03 15:33:38 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/be5a4260-cbc0-413d-bada-b7d21c52ebe7
+2026-03-03 15:33:38 | ERROR | [10711] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_30 (http_403)
+2026-03-03 15:33:38 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/9de24f1d-3e4d-4695-a732-bcd86f050c77
+2026-03-03 15:33:38 | ERROR | [10711] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_30 (http_403)
+2026-03-03 15:33:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.57s
+2026-03-03 15:33:38 | WARNING | HTTP 403, retrying attempt 2/10 in 1.45s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:33:38 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/4d5f2e37-e8b6-4203-9d76-c3fb298f8c9d
+2026-03-03 15:33:38 | ERROR | [10710] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_21 (http_403)
+2026-03-03 15:33:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.83s
+2026-03-03 15:33:39 | WARNING | HTTP 403, retrying attempt 2/10 in 1.38s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:33:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.07s
+2026-03-03 15:33:39 | WARNING | HTTP 403, retrying attempt 2/10 in 1.35s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:34:07 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.30s
+2026-03-03 15:34:07 | WARNING | HTTP 403, retrying attempt 2/10 in 1.21s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:34:07 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.14s
+2026-03-03 15:34:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.85s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:34:07 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:34:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.52s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:34:07 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.63s
+2026-03-03 15:34:07 | WARNING | HTTP 403, retrying attempt 3/10 in 2.79s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:34:34 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.11s
+2026-03-03 15:34:34 | WARNING | HTTP 403, retrying attempt 3/10 in 2.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:34:34 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.36s
+2026-03-03 15:34:34 | WARNING | HTTP 403, retrying attempt 4/10 in 5.61s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:34:34 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.31s
+2026-03-03 15:34:34 | WARNING | HTTP 403, retrying attempt 4/10 in 5.29s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:34:34 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.19s
+2026-03-03 15:34:34 | WARNING | HTTP 403, retrying attempt 4/10 in 5.15s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:35:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.79s
+2026-03-03 15:35:01 | WARNING | HTTP 403, retrying attempt 5/10 in 10.56s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:35:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.76s
+2026-03-03 15:35:01 | WARNING | HTTP 403, retrying attempt 5/10 in 9.80s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:35:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.24s
+2026-03-03 15:35:01 | WARNING | HTTP 403, retrying attempt 4/10 in 5.10s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:35:01 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.18s
+2026-03-03 15:35:01 | WARNING | HTTP 403, retrying attempt 5/10 in 10.06s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:35:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.87s
+2026-03-03 15:35:27 | WARNING | HTTP 403, retrying attempt 6/10 in 12.51s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:35:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:35:27 | WARNING | HTTP 403, retrying attempt 5/10 in 9.63s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:35:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.50s
+2026-03-03 15:35:27 | WARNING | HTTP 403, retrying attempt 6/10 in 12.77s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:35:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.68s
+2026-03-03 15:35:27 | WARNING | HTTP 403, retrying attempt 6/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:35:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.87s
+2026-03-03 15:35:54 | WARNING | HTTP 403, retrying attempt 7/10 in 12.68s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:35:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.11s
+2026-03-03 15:35:54 | WARNING | HTTP 403, retrying attempt 7/10 in 12.02s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:35:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.03s
+2026-03-03 15:35:54 | WARNING | HTTP 403, retrying attempt 7/10 in 12.02s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:35:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.27s
+2026-03-03 15:35:54 | WARNING | HTTP 403, retrying attempt 6/10 in 12.37s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:36:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.41s
+2026-03-03 15:36:20 | WARNING | HTTP 403, retrying attempt 8/10 in 12.57s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:36:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.86s
+2026-03-03 15:36:22 | WARNING | HTTP 403, retrying attempt 8/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:36:22 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.90s
+2026-03-03 15:36:22 | WARNING | HTTP 403, retrying attempt 7/10 in 12.08s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:36:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.10s
+2026-03-03 15:36:26 | WARNING | HTTP 403, retrying attempt 8/10 in 12.15s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:36:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.03s
+2026-03-03 15:36:48 | WARNING | HTTP 403, retrying attempt 8/10 in 12.03s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:36:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.17s
+2026-03-03 15:36:48 | WARNING | HTTP 403, retrying attempt 9/10 in 12.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:36:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:36:48 | WARNING | HTTP 403, retrying attempt 9/10 in 12.80s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:36:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.05s
+2026-03-03 15:36:48 | WARNING | HTTP 403, retrying attempt 9/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:37:14 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.24s
+2026-03-03 15:37:14 | WARNING | HTTP 403, retrying attempt 10/10 in 12.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:37:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.68s
+2026-03-03 15:37:16 | WARNING | HTTP 403, retrying attempt 10/10 in 12.14s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:37:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.34s
+2026-03-03 15:37:17 | WARNING | HTTP 403, retrying attempt 9/10 in 12.56s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:37:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.23s
+2026-03-03 15:37:17 | WARNING | HTTP 403, retrying attempt 10/10 in 12.74s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:37:41 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/772b2fc6-4dac-4fb1-8fdf-780e488e1467
+2026-03-03 15:37:41 | ERROR | [10712] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_27 (http_403)
+2026-03-03 15:37:42 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/0e816fc5-5726-4532-9afe-13ce5f956cb0
+2026-03-03 15:37:42 | ERROR | [10713] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_23 (http_403)
+2026-03-03 15:37:42 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.55s
+2026-03-03 15:37:42 | WARNING | HTTP 403, retrying attempt 10/10 in 12.83s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:37:42 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/38fedcdd-06be-493e-a9bd-aee548b7ba2d
+2026-03-03 15:37:42 | ERROR | [10712] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_27 (http_403)
+2026-03-03 15:37:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.78s
+2026-03-03 15:37:43 | WARNING | HTTP 403, retrying attempt 2/10 in 1.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:37:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.96s
+2026-03-03 15:37:43 | WARNING | HTTP 403, retrying attempt 2/10 in 1.41s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:38:09 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.22s
+2026-03-03 15:38:09 | WARNING | HTTP 403, retrying attempt 3/10 in 2.88s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:38:09 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.07s
+2026-03-03 15:38:09 | WARNING | HTTP 403, retrying attempt 3/10 in 2.80s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:38:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.19s
+2026-03-03 15:38:11 | WARNING | HTTP 403, retrying attempt 2/10 in 1.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:38:12 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/32b45711-f2a2-42d2-83eb-c3781f6599a7
+2026-03-03 15:38:12 | ERROR | [10713] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_23 (http_403)
+2026-03-03 15:38:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.29s
+2026-03-03 15:38:36 | WARNING | HTTP 403, retrying attempt 2/10 in 1.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:38:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.30s
+2026-03-03 15:38:36 | WARNING | HTTP 403, retrying attempt 3/10 in 2.88s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:38:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.52s
+2026-03-03 15:38:36 | WARNING | HTTP 403, retrying attempt 4/10 in 5.56s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:38:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.01s
+2026-03-03 15:38:36 | WARNING | HTTP 403, retrying attempt 4/10 in 5.78s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:39:02 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:39:02 | WARNING | HTTP 403, retrying attempt 5/10 in 10.31s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:39:02 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.60s
+2026-03-03 15:39:02 | WARNING | HTTP 403, retrying attempt 5/10 in 10.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:39:02 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.49s
+2026-03-03 15:39:02 | WARNING | HTTP 403, retrying attempt 4/10 in 4.82s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:39:02 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.05s
+2026-03-03 15:39:02 | WARNING | HTTP 403, retrying attempt 3/10 in 2.51s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:39:29 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.23s
+2026-03-03 15:39:29 | WARNING | HTTP 403, retrying attempt 6/10 in 12.81s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:39:29 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.17s
+2026-03-03 15:39:29 | WARNING | HTTP 403, retrying attempt 5/10 in 10.09s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:39:29 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.07s
+2026-03-03 15:39:29 | WARNING | HTTP 403, retrying attempt 4/10 in 5.20s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:39:29 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:39:29 | WARNING | HTTP 403, retrying attempt 6/10 in 12.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:39:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.34s
+2026-03-03 15:39:55 | WARNING | HTTP 403, retrying attempt 7/10 in 12.32s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:39:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.58s
+2026-03-03 15:39:55 | WARNING | HTTP 403, retrying attempt 6/10 in 12.86s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:39:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.77s
+2026-03-03 15:39:55 | WARNING | HTTP 403, retrying attempt 5/10 in 9.99s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:39:55 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.09s
+2026-03-03 15:39:55 | WARNING | HTTP 403, retrying attempt 7/10 in 12.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:40:21 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.35s
+2026-03-03 15:40:21 | WARNING | HTTP 403, retrying attempt 8/10 in 12.04s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:40:21 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.44s
+2026-03-03 15:40:21 | WARNING | HTTP 403, retrying attempt 6/10 in 12.00s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:40:21 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.69s
+2026-03-03 15:40:21 | WARNING | HTTP 403, retrying attempt 7/10 in 12.30s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:40:21 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.44s
+2026-03-03 15:40:21 | WARNING | HTTP 403, retrying attempt 8/10 in 12.94s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:40:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.73s
+2026-03-03 15:40:48 | WARNING | HTTP 403, retrying attempt 9/10 in 12.30s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:40:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.41s
+2026-03-03 15:40:48 | WARNING | HTTP 403, retrying attempt 8/10 in 12.23s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:40:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.66s
+2026-03-03 15:40:48 | WARNING | HTTP 403, retrying attempt 9/10 in 12.05s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:40:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.22s
+2026-03-03 15:40:48 | WARNING | HTTP 403, retrying attempt 7/10 in 12.10s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:41:15 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.17s
+2026-03-03 15:41:15 | WARNING | HTTP 403, retrying attempt 10/10 in 12.19s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:41:17 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.74s
+2026-03-03 15:41:17 | WARNING | HTTP 403, retrying attempt 10/10 in 12.30s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:41:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=20.92s
+2026-03-03 15:41:20 | WARNING | HTTP 403, retrying attempt 9/10 in 12.07s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:41:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.16s
+2026-03-03 15:41:20 | WARNING | HTTP 403, retrying attempt 8/10 in 12.70s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:41:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.59s
+2026-03-03 15:41:43 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/049c7a66-de88-4e35-8a2b-d3c243dd7c8f
+2026-03-03 15:41:43 | WARNING | HTTP 403, retrying attempt 10/10 in 12.11s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:41:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:41:43 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/8c88fbf5-d6a1-44ad-bb07-d70d161b864b
+2026-03-03 15:41:43 | WARNING | HTTP 403, retrying attempt 9/10 in 12.58s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:41:43 | ERROR | [10714] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_28 (http_403)
+2026-03-03 15:41:43 | ERROR | [10714] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_28 (http_403)
+2026-03-03 15:42:12 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.24s
+2026-03-03 15:42:12 | WARNING | HTTP 403, retrying attempt 10/10 in 12.24s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:42:15 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.99s
+2026-03-03 15:42:15 | WARNING | HTTP 403, retrying attempt 2/10 in 1.28s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:42:15 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.17s
+2026-03-03 15:42:15 | WARNING | HTTP 403, retrying attempt 2/10 in 1.20s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:42:15 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/f37ec555-7ecb-4206-903c-07784e9952b9
+2026-03-03 15:42:15 | ERROR | [10715] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_26 (http_403)
+2026-03-03 15:42:41 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.54s
+2026-03-03 15:42:41 | WARNING | HTTP 403, retrying attempt 3/10 in 2.62s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:42:41 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.10s
+2026-03-03 15:42:41 | WARNING | HTTP 403, retrying attempt 3/10 in 2.56s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:42:41 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/a2f52287-9fee-41dc-b631-acbb939e45b2
+2026-03-03 15:42:41 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.34s
+2026-03-03 15:42:41 | WARNING | HTTP 403, retrying attempt 2/10 in 1.24s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:42:41 | ERROR | [10715] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_26 (http_403)
+2026-03-03 15:43:08 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:43:08 | WARNING | HTTP 403, retrying attempt 4/10 in 4.86s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:43:08 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:43:08 | WARNING | HTTP 403, retrying attempt 3/10 in 2.75s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:43:08 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:43:08 | WARNING | HTTP 403, retrying attempt 2/10 in 1.25s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:43:08 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.34s
+2026-03-03 15:43:08 | WARNING | HTTP 403, retrying attempt 4/10 in 5.39s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:43:36 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.99s
+2026-03-03 15:43:36 | WARNING | HTTP 403, retrying attempt 4/10 in 4.85s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:43:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.94s
+2026-03-03 15:43:37 | WARNING | HTTP 403, retrying attempt 5/10 in 10.29s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:43:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.19s
+2026-03-03 15:43:37 | WARNING | HTTP 403, retrying attempt 3/10 in 2.67s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:43:37 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.44s
+2026-03-03 15:43:37 | WARNING | HTTP 403, retrying attempt 5/10 in 10.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:44:06 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.56s
+2026-03-03 15:44:06 | WARNING | HTTP 403, retrying attempt 5/10 in 9.93s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:44:09 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.49s
+2026-03-03 15:44:09 | WARNING | HTTP 403, retrying attempt 4/10 in 5.30s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:44:09 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.63s
+2026-03-03 15:44:09 | WARNING | HTTP 403, retrying attempt 6/10 in 12.77s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:44:09 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.83s
+2026-03-03 15:44:09 | WARNING | HTTP 403, retrying attempt 6/10 in 12.03s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:44:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.69s
+2026-03-03 15:44:39 | WARNING | HTTP 403, retrying attempt 5/10 in 10.43s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:44:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.33s
+2026-03-03 15:44:39 | WARNING | HTTP 403, retrying attempt 7/10 in 12.91s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:44:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.55s
+2026-03-03 15:44:39 | WARNING | HTTP 403, retrying attempt 6/10 in 12.21s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:44:39 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.07s
+2026-03-03 15:44:39 | WARNING | HTTP 403, retrying attempt 7/10 in 12.77s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:45:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.18s
+2026-03-03 15:45:05 | WARNING | HTTP 403, retrying attempt 6/10 in 12.59s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:45:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:45:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.94s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:45:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.62s
+2026-03-03 15:45:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.72s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:45:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.74s
+2026-03-03 15:45:05 | WARNING | HTTP 403, retrying attempt 7/10 in 12.12s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:45:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.17s
+2026-03-03 15:45:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.57s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:45:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.39s
+2026-03-03 15:45:32 | WARNING | HTTP 403, retrying attempt 8/10 in 12.24s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:45:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.34s
+2026-03-03 15:45:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.93s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:45:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.56s
+2026-03-03 15:45:32 | WARNING | HTTP 403, retrying attempt 7/10 in 12.14s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:45:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.37s
+2026-03-03 15:45:59 | WARNING | HTTP 403, retrying attempt 10/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:45:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:45:59 | WARNING | HTTP 403, retrying attempt 8/10 in 12.95s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:46:02 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.92s
+2026-03-03 15:46:02 | WARNING | HTTP 403, retrying attempt 9/10 in 12.19s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:46:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=21.31s
+2026-03-03 15:46:04 | WARNING | HTTP 403, retrying attempt 10/10 in 12.19s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:46:27 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/53cd109c-ccbc-4726-b28f-537e39fc3084
+2026-03-03 15:46:27 | ERROR | [10716] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_22 (http_403)
+2026-03-03 15:46:28 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.90s
+2026-03-03 15:46:28 | WARNING | HTTP 403, retrying attempt 2/10 in 1.39s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:46:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.80s
+2026-03-03 15:46:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:46:32 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/995b7b26-69aa-4da7-9297-1a66a25a91f3
+2026-03-03 15:46:32 | ERROR | [10716] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_22 (http_403)
+2026-03-03 15:46:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.94s
+2026-03-03 15:46:32 | WARNING | HTTP 403, retrying attempt 10/10 in 12.14s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:46:56 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:46:56 | WARNING | HTTP 403, retrying attempt 2/10 in 1.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:46:56 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.15s
+2026-03-03 15:46:56 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/749e0a92-8c10-491d-9b7f-45f9d839a1d2
+2026-03-03 15:46:56 | WARNING | HTTP 403, retrying attempt 10/10 in 12.74s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:46:56 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.39s
+2026-03-03 15:46:56 | WARNING | HTTP 403, retrying attempt 3/10 in 2.74s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:46:56 | ERROR | [10717] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_24 (http_403)
+2026-03-03 15:47:23 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.04s
+2026-03-03 15:47:23 | WARNING | HTTP 403, retrying attempt 2/10 in 1.47s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:47:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=22.65s
+2026-03-03 15:47:25 | WARNING | HTTP 403, retrying attempt 4/10 in 5.04s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:47:27 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=20.84s
+2026-03-03 15:47:27 | WARNING | HTTP 403, retrying attempt 3/10 in 2.51s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:47:28 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/d8d0bd25-48b9-44d1-a32e-04b0bc922ee8
+2026-03-03 15:47:28 | ERROR | [10717] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_24 (http_403)
+2026-03-03 15:47:53 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.62s
+2026-03-03 15:47:53 | WARNING | HTTP 403, retrying attempt 2/10 in 1.41s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:47:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.01s
+2026-03-03 15:47:54 | WARNING | HTTP 403, retrying attempt 4/10 in 4.99s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:47:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.22s
+2026-03-03 15:47:54 | WARNING | HTTP 403, retrying attempt 5/10 in 9.84s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:47:54 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.47s
+2026-03-03 15:47:54 | WARNING | HTTP 403, retrying attempt 3/10 in 2.57s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:48:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.58s
+2026-03-03 15:48:20 | WARNING | HTTP 403, retrying attempt 4/10 in 4.91s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:48:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.77s
+2026-03-03 15:48:20 | WARNING | HTTP 403, retrying attempt 5/10 in 10.41s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:48:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.50s
+2026-03-03 15:48:20 | WARNING | HTTP 403, retrying attempt 6/10 in 12.41s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:48:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.72s
+2026-03-03 15:48:20 | WARNING | HTTP 403, retrying attempt 3/10 in 2.94s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:48:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.68s
+2026-03-03 15:48:48 | WARNING | HTTP 403, retrying attempt 5/10 in 9.71s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:48:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.11s
+2026-03-03 15:48:48 | WARNING | HTTP 403, retrying attempt 7/10 in 12.60s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:48:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.36s
+2026-03-03 15:48:48 | WARNING | HTTP 403, retrying attempt 4/10 in 5.07s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:48:48 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.52s
+2026-03-03 15:48:48 | WARNING | HTTP 403, retrying attempt 6/10 in 12.35s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:49:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.14s
+2026-03-03 15:49:16 | WARNING | HTTP 403, retrying attempt 8/10 in 12.17s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:49:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:49:16 | WARNING | HTTP 403, retrying attempt 7/10 in 12.90s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:49:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.63s
+2026-03-03 15:49:16 | WARNING | HTTP 403, retrying attempt 6/10 in 12.35s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:49:16 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.65s
+2026-03-03 15:49:16 | WARNING | HTTP 403, retrying attempt 5/10 in 10.12s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:49:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.23s
+2026-03-03 15:49:43 | WARNING | HTTP 403, retrying attempt 7/10 in 12.69s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:49:43 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.07s
+2026-03-03 15:49:43 | WARNING | HTTP 403, retrying attempt 9/10 in 12.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:49:44 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.32s
+2026-03-03 15:49:44 | WARNING | HTTP 403, retrying attempt 8/10 in 12.35s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:49:44 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=24.57s
+2026-03-03 15:49:44 | WARNING | HTTP 403, retrying attempt 6/10 in 12.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:50:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:50:11 | WARNING | HTTP 403, retrying attempt 9/10 in 12.67s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:50:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.57s
+2026-03-03 15:50:11 | WARNING | HTTP 403, retrying attempt 7/10 in 12.15s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:50:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.37s
+2026-03-03 15:50:11 | WARNING | HTTP 403, retrying attempt 8/10 in 12.28s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:50:11 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.62s
+2026-03-03 15:50:11 | WARNING | HTTP 403, retrying attempt 10/10 in 12.48s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:50:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.08s
+2026-03-03 15:50:38 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/ff97ded3-8416-4a22-954f-5c15dbb95aad
+2026-03-03 15:50:38 | WARNING | HTTP 403, retrying attempt 10/10 in 12.18s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:50:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.32s
+2026-03-03 15:50:38 | WARNING | HTTP 403, retrying attempt 9/10 in 12.65s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:50:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.57s
+2026-03-03 15:50:38 | WARNING | HTTP 403, retrying attempt 8/10 in 12.59s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:50:38 | ERROR | [10718] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_3 (http_403)
+2026-03-03 15:51:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.55s
+2026-03-03 15:51:04 | WARNING | HTTP 403, retrying attempt 2/10 in 1.51s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:51:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.54s
+2026-03-03 15:51:04 | WARNING | HTTP 403, retrying attempt 9/10 in 12.50s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:51:04 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:51:04 | ERROR | [10718] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_3 (http_403)
+2026-03-03 15:51:04 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.47s
+2026-03-03 15:51:04 | WARNING | HTTP 403, retrying attempt 10/10 in 12.33s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:51:31 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.15s
+2026-03-03 15:51:31 | WARNING | HTTP 403, retrying attempt 10/10 in 12.56s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:51:31 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.36s
+2026-03-03 15:51:31 | WARNING | HTTP 403, retrying attempt 2/10 in 1.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:51:31 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/9e7480ff-dfeb-42dd-8384-88975070266b
+2026-03-03 15:51:31 | ERROR | [10719] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_8 (http_403)
+2026-03-03 15:51:33 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=23.93s
+2026-03-03 15:51:33 | WARNING | HTTP 403, retrying attempt 3/10 in 2.78s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:51:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.60s
+2026-03-03 15:51:58 | WARNING | HTTP 403, retrying attempt 3/10 in 2.65s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:51:58 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/823e4235-0b03-4413-960f-add3a20b4c9e
+2026-03-03 15:51:58 | ERROR | [10719] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_8 (http_403)
+2026-03-03 15:51:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.55s
+2026-03-03 15:51:58 | WARNING | HTTP 403, retrying attempt 4/10 in 4.88s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:51:58 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.64s
+2026-03-03 15:51:58 | WARNING | HTTP 403, retrying attempt 2/10 in 1.27s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:52:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.73s
+2026-03-03 15:52:25 | WARNING | HTTP 403, retrying attempt 2/10 in 1.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:52:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.54s
+2026-03-03 15:52:25 | WARNING | HTTP 403, retrying attempt 4/10 in 5.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:52:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.28s
+2026-03-03 15:52:25 | WARNING | HTTP 403, retrying attempt 3/10 in 2.71s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:52:25 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.53s
+2026-03-03 15:52:25 | WARNING | HTTP 403, retrying attempt 5/10 in 10.54s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:52:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=26.00s
+2026-03-03 15:52:51 | WARNING | HTTP 403, retrying attempt 5/10 in 9.69s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:52:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:52:51 | WARNING | HTTP 403, retrying attempt 6/10 in 12.93s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:52:51 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.54s
+2026-03-03 15:52:51 | WARNING | HTTP 403, retrying attempt 3/10 in 2.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:52:52 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.28s
+2026-03-03 15:52:52 | WARNING | HTTP 403, retrying attempt 4/10 in 5.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:53:18 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.23s
+2026-03-03 15:53:18 | WARNING | HTTP 403, retrying attempt 4/10 in 5.36s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:53:18 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.08s
+2026-03-03 15:53:18 | WARNING | HTTP 403, retrying attempt 5/10 in 10.41s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:53:18 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.33s
+2026-03-03 15:53:18 | WARNING | HTTP 403, retrying attempt 7/10 in 12.19s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:53:18 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.58s
+2026-03-03 15:53:18 | WARNING | HTTP 403, retrying attempt 6/10 in 12.16s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:53:45 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.73s
+2026-03-03 15:53:45 | WARNING | HTTP 403, retrying attempt 5/10 in 10.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:53:45 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.87s
+2026-03-03 15:53:45 | WARNING | HTTP 403, retrying attempt 6/10 in 12.00s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:53:45 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.71s
+2026-03-03 15:53:45 | WARNING | HTTP 403, retrying attempt 8/10 in 12.07s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:53:45 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.48s
+2026-03-03 15:53:45 | WARNING | HTTP 403, retrying attempt 7/10 in 12.75s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:54:12 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:54:12 | WARNING | HTTP 403, retrying attempt 9/10 in 12.43s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:54:12 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.65s
+2026-03-03 15:54:12 | WARNING | HTTP 403, retrying attempt 6/10 in 12.65s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:54:12 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.01s
+2026-03-03 15:54:12 | WARNING | HTTP 403, retrying attempt 7/10 in 12.45s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:54:12 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:54:12 | WARNING | HTTP 403, retrying attempt 8/10 in 12.89s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:54:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.99s
+2026-03-03 15:54:38 | WARNING | HTTP 403, retrying attempt 8/10 in 12.64s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:54:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.67s
+2026-03-03 15:54:38 | WARNING | HTTP 403, retrying attempt 7/10 in 12.95s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:54:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.60s
+2026-03-03 15:54:38 | WARNING | HTTP 403, retrying attempt 10/10 in 12.55s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:54:38 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.25s
+2026-03-03 15:54:38 | WARNING | HTTP 403, retrying attempt 9/10 in 12.61s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:55:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.92s
+2026-03-03 15:55:05 | WARNING | HTTP 403, retrying attempt 8/10 in 12.71s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:55:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.62s
+2026-03-03 15:55:05 | WARNING | HTTP 403, retrying attempt 9/10 in 12.64s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:55:05 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/045cabed-630f-45ac-b708-99887405ab23
+2026-03-03 15:55:05 | ERROR | [10720] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_10 (http_403)
+2026-03-03 15:55:05 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.83s
+2026-03-03 15:55:05 | WARNING | HTTP 403, retrying attempt 10/10 in 12.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:55:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.04s
+2026-03-03 15:55:32 | WARNING | HTTP 403, retrying attempt 2/10 in 1.25s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/5cf1666a-957c-450f-bde3-b64b25613c09
+2026-03-03 15:55:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:55:32 | WARNING | HTTP 403, retrying attempt 9/10 in 12.72s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:55:32 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:55:32 | WARNING | HTTP 403, retrying attempt 10/10 in 12.40s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:55:32 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/80917d3e-959f-4f3b-af1e-c5bd7efe1c54
+2026-03-03 15:55:32 | ERROR | [10720] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_10 (http_403)
+2026-03-03 15:55:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.98s
+2026-03-03 15:55:59 | WARNING | HTTP 403, retrying attempt 10/10 in 12.95s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:55:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.30s
+2026-03-03 15:55:59 | WARNING | HTTP 403, retrying attempt 2/10 in 1.33s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/e41b1a44-00de-472f-90a2-c18dc4e86e63
+2026-03-03 15:55:59 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/01e4ec87-b739-4c32-8b2e-207be3380875
+2026-03-03 15:55:59 | ERROR | [10721] failed base: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_5 (http_403)
+2026-03-03 15:55:59 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:55:59 | WARNING | HTTP 403, retrying attempt 3/10 in 2.73s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/5cf1666a-957c-450f-bde3-b64b25613c09
+2026-03-03 15:56:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.67s
+2026-03-03 15:56:26 | ERROR | HTTP 403 after 10/10 attempts | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/00e53e4b-6b6c-4d4a-b6f2-12e1f2583028
+2026-03-03 15:56:26 | WARNING | HTTP 403, retrying attempt 3/10 in 2.47s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/e41b1a44-00de-472f-90a2-c18dc4e86e63
+2026-03-03 15:56:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.38s
+2026-03-03 15:56:26 | WARNING | HTTP 403, retrying attempt 4/10 in 4.86s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/5cf1666a-957c-450f-bde3-b64b25613c09
+2026-03-03 15:56:26 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.42s
+2026-03-03 15:56:26 | WARNING | HTTP 403, retrying attempt 2/10 in 1.31s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/188767bb-e49c-41d3-9683-39a5a6999ef0
+2026-03-03 15:56:26 | ERROR | [10721] failed context: d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835_5 (http_403)
+2026-03-03 15:56:53 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.85s
+2026-03-03 15:56:53 | WARNING | HTTP 403, retrying attempt 2/10 in 1.50s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/815fa076-536b-4f69-9932-764b9119584f
+2026-03-03 15:56:53 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.26s
+2026-03-03 15:56:53 | WARNING | HTTP 403, retrying attempt 5/10 in 9.84s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/5cf1666a-957c-450f-bde3-b64b25613c09
+2026-03-03 15:56:53 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:56:53 | WARNING | HTTP 403, retrying attempt 3/10 in 2.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/188767bb-e49c-41d3-9683-39a5a6999ef0
+2026-03-03 15:56:53 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.66s
+2026-03-03 15:56:53 | WARNING | HTTP 403, retrying attempt 4/10 in 5.42s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/e41b1a44-00de-472f-90a2-c18dc4e86e63
+2026-03-03 15:57:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.54s
+2026-03-03 15:57:20 | WARNING | HTTP 403, retrying attempt 4/10 in 5.46s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/188767bb-e49c-41d3-9683-39a5a6999ef0
+2026-03-03 15:57:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.45s
+2026-03-03 15:57:20 | WARNING | HTTP 403, retrying attempt 5/10 in 10.08s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/e41b1a44-00de-472f-90a2-c18dc4e86e63
+2026-03-03 15:57:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.51s
+2026-03-03 15:57:20 | WARNING | HTTP 403, retrying attempt 6/10 in 12.09s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/assets/TAP_9f9bf057-c6c8-49ce-9107-ff714c894763/5cf1666a-957c-450f-bde3-b64b25613c09
+2026-03-03 15:57:20 | WARNING | Adaptive throttle increased: penalty=25.00s retry_after=none next_allowed_in=25.76s
+2026-03-03 15:57:20 | WARNING | HTTP 403, retrying attempt 3/10 in 2.49s | retry_after=none | url=https://browserstack-a11y-engine-prod-use1.s3.us-east-1.amazonaws.com/dom-forge/ai/d3dc7fd7-f9e6-49a5-bc1e-2e25ebcfcd25-10669835/815fa076-536b-4f69-9932-764b9119584f
